@@ -1,0 +1,15 @@
+import type { NextApiRequest, NextApiResponse } from 'next';
+import { serialize } from 'cookie';
+
+export default function handler(req: NextApiRequest, res: NextApiResponse) {
+  res.setHeader(
+    'Set-Cookie',
+    serialize('admin_secret', '', {
+      httpOnly: true,
+      sameSite: 'lax',
+      path: '/',
+      maxAge: 0,
+    })
+  );
+  return res.status(200).json({ ok: true });
+}

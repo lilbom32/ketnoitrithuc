@@ -1,0 +1,211 @@
+{
+  "nav": {
+    "about": "À Propos",
+    "news": "Actualités",
+    "courses": "Cours",
+    "product": "Produit",
+    "resources": "Ressources",
+    "opportunities": "Opportunités",
+    "partners": "Partenaires",
+    "events": "Événements",
+    "register": "S'inscrire",
+    "faq": "FAQ",
+    "login": "Connexion",
+    "logout": "Déconnexion",
+    "profile": "Profil",
+    "community": "Connexion",
+    "more": "Plus",
+    "dropdown": {
+      "orgChart": "Organigramme",
+      "trainingDept": "Conseil de Formation",
+      "advisoryDept": "Conseil Consultatif",
+      "culture": "Culture du Club",
+      "allArticles": "Tous les Articles",
+      "industryTrends": "Tendances du Secteur",
+      "deepAnalysis": "Analyse Approfondie",
+      "masterclass": "Masterclass",
+      "bespoke": "Sur Mesure",
+      "digitalLibrary": "Bibliothèque Numérique",
+      "pdfViewer": "Visionneuse PDF",
+      "jobs": "Emplois",
+      "scholarships": "Bourses",
+      "collaboration": "Collaboration",
+      "strategicPartners": "Partenaires Stratégiques",
+      "testimonials": "Témoignages",
+      "collabForm": "Formulaire de Collaboration",
+      "eventCalendar": "Calendrier des Événements",
+      "eventRegister": "S'inscrire",
+      "archive": "Archive"
+    }
+  },
+  "hero": {
+    "scriptText": "Découvrez les connaissances du Sud-Est du Vietnam",
+    "title": "Club de Connaissances",
+    "subtitle": "Connecter les Savoirs",
+    "cta": "Explorer",
+    "stats": {
+      "documents": "Documents",
+      "courses": "Cours",
+      "members": "Membres",
+      "partners": "Partenaires"
+    }
+  },
+  "events": {
+    "scriptText": "Derniers Événements",
+    "subtitle": "ÉVÉNEMENTS & SÉMINAIRES",
+    "title": "Événements à Venir",
+    "upcomingTitle": "Événements à Venir",
+    "archiveTitle": "Événements Passés",
+    "location": "Hô Chi Minh-Ville & Delta du Mékong",
+    "register": "S'inscrire",
+    "registrationOpen": "Inscriptions Ouvertes",
+    "registerAction": "S'inscrire",
+    "ended": "Terminé",
+    "closed": "Inscriptions Fermées",
+    "viewAll": "Voir Tous les Événements"
+  },
+  "product": {
+    "scriptText": "Développez vos Compétences",
+    "subtitle": "PRODUITS DE FORMATION",
+    "title": "Cours & Services",
+    "coursesTitle": "Cours en Vedette",
+    "bespokeTitle": "Bespoke - Contenu Local",
+    "featured": "En Vedette",
+    "register": "S'inscrire",
+    "learnMore": "En Savoir Plus"
+  },
+  "resources": {
+    "scriptText": "Trésor de Connaissances",
+    "subtitle": "BIBLIOTHÈQUE NUMÉRIQUE",
+    "title": "Ressources Riches",
+    "prev": "Précédent",
+    "next": "Suivant"
+  },
+  "news": {
+    "scriptText": "Dernières Mises à Jour",
+    "subtitle": "ACTUALITÉS & SAVOIRS",
+    "title": "Articles en Vedette",
+    "readMore": "Lire Plus",
+    "viewAll": "Voir Tous les Articles"
+  },
+  "about": {
+    "scriptText": "Notre Histoire",
+    "subtitle": "À PROPOS DU CLUB",
+    "title": "Notre Parcours",
+    "intro": "Le Club de Connaissances a été fondé avec la mission de connecter, préserver et développer les connaissances sur le Sud-Est du Vietnam et le Delta du Mékong.",
+    "tabs": {
+      "history": "Histoire",
+      "advisory": "Conseil Consultatif",
+      "training": "Conseil de Formation",
+      "leadership": "Direction",
+      "culture": "Culture du Club"
+    },
+    "orgChart": {
+      "title": "Organigramme",
+      "viewFull": "Voir l'Organigramme Complet",
+      "leadership": "Direction",
+      "advisory": "Conseil Consultatif",
+      "training": "Conseil de Formation"
+    },
+    "timeline": {
+      "2020": "Fondation du Club",
+      "2022": "Expansion des Partenariats",
+      "2024": "Lancement de la Plateforme",
+      "2026": "Vision Internationale"
+    },
+    "quote": "Le savoir est la lumière qui guide le développement durable."
+  },
+  "contact": {
+    "scriptText": "Contactez-nous",
+    "subtitle": "INSCRIPTION",
+    "title": "Rejoindre la Communauté",
+    "connect": "Connectez-Vous Avec Nous",
+    "connectDesc": "Envoyez vos questions ou demandes de collaboration — notre équipe répondra dans les 24 heures ouvrables.",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "workingHours": "Heures d'Ouverture",
+    "subject": "Sujet",
+    "subjectOptions": {
+      "general": "Question Générale",
+      "membership": "Plans d'Adhésion",
+      "bespoke": "Consultation Bespoke",
+      "partner": "Partenariat"
+    },
+    "successTitle": "Envoyé avec Succès !",
+    "successMsg": "Nous répondrons dans les 24 heures ouvrables.",
+    "newMessage": "Envoyer un Nouveau Message",
+    "sendError": "Une erreur est survenue, veuillez réessayer plus tard.",
+    "info": {
+      "title": "Informations de Contact",
+      "address": "Adresse",
+      "email": "Email",
+      "phone": "Téléphone",
+      "hours": "Heures d'ouverture",
+      "addressValue": "Hô Chi Minh-Ville, Vietnam",
+      "emailValue": "info@clbtrithuc.vn",
+      "phoneValue": "1900 xxxx",
+      "hoursValue": "Lun-Sam, 8h-17h"
+    },
+    "form": {
+      "name": "Nom Complet",
+      "namePlaceholder": "Entrez votre nom complet",
+      "email": "Email",
+      "emailPlaceholder": "exemple@email.com",
+      "phone": "Téléphone",
+      "phonePlaceholder": "090x xxx xxx",
+      "password": "Mot de passe",
+      "passwordPlaceholder": "Au moins 6 caractères",
+      "confirmPassword": "Confirmer le mot de passe",
+      "confirmPasswordPlaceholder": "Saisir à nouveau",
+      "tier": "Forfait d'adhésion",
+      "message": "Message",
+      "messagePlaceholder": "Qu'est-ce qui vous intéresse ?",
+      "submit": "S'inscrire",
+      "submitting": "Traitement...",
+      "success": "Inscription réussie !",
+      "error": "Une erreur est survenue.",
+      "passwordMismatch": "Les mots de passe ne correspondent pas.",
+      "weakPassword": "Le mot de passe doit faire au moins 6 caractères.",
+      "emailExists": "Cet email est déjà enregistré.",
+      "privacy": "En vous inscrivant, vous acceptez nos conditions et notre politique de confidentialité."
+    }
+  },
+  "footer": {
+    "description": "Connecter les connaissances du Sud-Est du Vietnam et du Delta du Mékong.",
+    "newsletter": {
+      "label": "S'abonner à la newsletter",
+      "placeholder": "Entrez votre email",
+      "button": "S'abonner",
+      "success": "Inscription réussie !",
+      "error": "Une erreur est survenue."
+    },
+    "copyright": "© 2026 Club de Connaissances. Tous droits réservés.",
+    "backToTop": "Retour en haut",
+    "legal": {
+      "privacy": "Politique de Confidentialité",
+      "terms": "Conditions d'Utilisation"
+    }
+  },
+  "faq": {
+    "scriptText": "Répondre à vos questions",
+    "subtitle": "FAQ",
+    "title": "Questions Fréquemment Posées",
+    "intro": "Trouvez des réponses à vos questions sur le Club de Connaissances.",
+    "categories": {
+      "all": "Tout",
+      "membership": "Adhésion",
+      "resources": "Ressources",
+      "partnership": "Partenariat"
+    },
+    "contactCta": "Encore des questions ?",
+    "contactLink": "Contact"
+  },
+  "language": {
+    "vi": "Tiếng Việt",
+    "en": "English",
+    "fr": "Français",
+    "zh": "中文",
+    "ko": "한국어",
+    "de": "Deutsch"
+  }
+}

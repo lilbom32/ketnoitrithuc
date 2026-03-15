@@ -1,0 +1,211 @@
+{
+  "nav": {
+    "about": "Về Chúng Tôi",
+    "news": "Kho Tri Thức",
+    "courses": "Khóa Học",
+    "product": "Sản phẩm",
+    "resources": "Tài Nguyên",
+    "opportunities": "Cơ Hội",
+    "partners": "Đối Tác",
+    "events": "Sự Kiện",
+    "register": "Đăng Ký",
+    "faq": "Hỏi Đáp",
+    "login": "Đăng Nhập",
+    "logout": "Đăng Xuất",
+    "profile": "Hồ Sơ",
+    "community": "Kết Nối",
+    "more": "Xem Thêm",
+    "dropdown": {
+      "orgChart": "Sơ đồ tổ chức",
+      "trainingDept": "Ban đào tạo",
+      "advisoryDept": "Ban tư vấn",
+      "culture": "Bộ văn hóa CLB",
+      "allArticles": "Tất cả bài viết",
+      "industryTrends": "Xu hướng ngành",
+      "deepAnalysis": "Phân tích chuyên sâu",
+      "masterclass": "Masterclass",
+      "bespoke": "Bespoke",
+      "digitalLibrary": "Thư viện số",
+      "pdfViewer": "PDF Viewer",
+      "jobs": "Việc làm",
+      "scholarships": "Học bổng",
+      "collaboration": "Cộng tác",
+      "strategicPartners": "Đối tác chiến lược",
+      "testimonials": "Testimonials",
+      "collabForm": "Form hợp tác",
+      "eventCalendar": "Lịch sự kiện",
+      "eventRegister": "Đăng ký",
+      "archive": "Archive"
+    }
+  },
+  "hero": {
+    "scriptText": "Khám phá kiến thức vùng Đông Nam Bộ",
+    "title": "CLB Kết nối tri thức",
+    "subtitle": "Kết Nối Tri Thức",
+    "cta": "Khám phá ngay",
+    "stats": {
+      "documents": "Tài liệu",
+      "courses": "Khóa học",
+      "members": "Thành viên",
+      "partners": "Đối tác"
+    }
+  },
+  "events": {
+    "scriptText": "Cập nhật sự kiện",
+    "subtitle": "SỰ KIỆN & HỘI THẢO",
+    "title": "Sự Kiện Sắp Tới",
+    "upcomingTitle": "Sự Kiện Sắp Tới",
+    "archiveTitle": "Sự Kiện Đã Diễn Ra",
+    "location": "TP.HCM & Đồng bằng sông Cửu Long",
+    "register": "Đăng ký ngay",
+    "registrationOpen": "Đang mở đăng ký",
+    "registerAction": "Đăng ký tham gia",
+    "ended": "Đã kết thúc",
+    "closed": "Đóng đăng ký",
+    "viewAll": "Xem tất cả sự kiện"
+  },
+  "product": {
+    "scriptText": "Nâng cao kỹ năng",
+    "subtitle": "SẢN PHẨM ĐÀO TẠO",
+    "title": "Khóa Học & Dịch Vụ",
+    "coursesTitle": "Khóa Học Nổi Bật",
+    "bespokeTitle": "Bespoke - Nội dung Địa phương",
+    "featured": "Nổi bật",
+    "register": "Đăng ký",
+    "learnMore": "Tìm hiểu thêm"
+  },
+  "resources": {
+    "scriptText": "Kho tàng tri thức",
+    "subtitle": "THƯ VIỆN SỐ",
+    "title": "Tài Nguyên Phong Phú",
+    "prev": "Trước",
+    "next": "Tiếp theo"
+  },
+  "news": {
+    "scriptText": "Cập nhật mới nhất",
+    "subtitle": "TIN TỨC & TRI THỨC",
+    "title": "Bài Viết Nổi Bật",
+    "readMore": "Đọc thêm",
+    "viewAll": "Xem tất cả bài viết"
+  },
+  "about": {
+    "scriptText": "Câu chuyện của chúng tôi",
+    "subtitle": "VỀ CLB KẾT NỐI TRI THỨC",
+    "title": "Hành Trình Phát Triển",
+    "intro": "CLB Kết nối tri thức được thành lập với sứ mệnh kết nối, bảo tồn và phát triển tri thức về vùng Đông Nam Bộ và Đồng bằng sông Cửu Long.",
+    "tabs": {
+      "history": "Lịch sử",
+      "advisory": "Ban Tư vấn",
+      "training": "Ban Đào tạo",
+      "leadership": "Ban Lãnh đạo",
+      "culture": "Bộ văn hóa CLB"
+    },
+    "orgChart": {
+      "title": "Sơ Đồ Tổ Chức",
+      "viewFull": "Xem sơ đồ đầy đủ",
+      "leadership": "Ban Lãnh đạo",
+      "advisory": "Ban Tư vấn",
+      "training": "Ban Đào tạo"
+    },
+    "timeline": {
+      "2020": "Thành lập CLB Kết nối tri thức",
+      "2022": "Mở rộng đối tác chiến lược",
+      "2024": "Ra mắt nền tảng online",
+      "2026": "Tầm nhìn quốc tế"
+    },
+    "quote": "Tri thức là ánh sáng dẫn đường cho sự phát triển bền vững."
+  },
+  "contact": {
+    "scriptText": "Kết nối với chúng tôi",
+    "subtitle": "ĐĂNG KÝ THÀNH VIÊN",
+    "title": "Tham Gia Cộng Đồng",
+    "connect": "Kết Nối Với Chúng Tôi",
+    "connectDesc": "Gửi câu hỏi hoặc yêu cầu hợp tác — đội ngũ chúng tôi sẽ phản hồi trong vòng 24 giờ làm việc.",
+    "phone": "Điện thoại",
+    "address": "Địa chỉ",
+    "workingHours": "Giờ làm việc",
+    "subject": "Chủ đề",
+    "subjectOptions": {
+      "general": "Câu hỏi chung",
+      "membership": "Hỏi về gói hội viên",
+      "bespoke": "Tư vấn Bespoke",
+      "partner": "Hợp tác đối tác"
+    },
+    "successTitle": "Đã gửi thành công!",
+    "successMsg": "Chúng tôi sẽ phản hồi trong vòng 24 giờ làm việc.",
+    "newMessage": "Gửi tin nhắn mới",
+    "sendError": "Có lỗi xảy ra, vui lòng thử lại sau.",
+    "info": {
+      "title": "Thông tin liên hệ",
+      "address": "Địa chỉ",
+      "email": "Email",
+      "phone": "Số điện thoại",
+      "hours": "Giờ làm việc",
+      "addressValue": "TP.HCM, Việt Nam",
+      "emailValue": "info@clbtrithuc.vn",
+      "phoneValue": "028 3822 8855",
+      "hoursValue": "T2-T7, 8:00-17:00"
+    },
+    "form": {
+      "name": "Họ và tên",
+      "namePlaceholder": "Nhập họ và tên",
+      "email": "Email",
+      "emailPlaceholder": "example@email.com",
+      "phone": "Số điện thoại",
+      "phonePlaceholder": "090x xxx xxx",
+      "password": "Mật khẩu",
+      "passwordPlaceholder": "Ít nhất 6 ký tự",
+      "confirmPassword": "Xác nhận mật khẩu",
+      "confirmPasswordPlaceholder": "Nhập lại mật khẩu",
+      "tier": "Gói thành viên",
+      "message": "Lời nhắn",
+      "messagePlaceholder": "Bạn quan tâm đến điều gì?",
+      "submit": "Đăng ký ngay",
+      "submitting": "Đang xử lý...",
+      "success": "Đăng ký thành công!",
+      "error": "Có lỗi xảy ra. Vui lòng thử lại.",
+      "passwordMismatch": "Mật khẩu xác nhận không khớp.",
+      "weakPassword": "Mật khẩu phải có ít nhất 6 ký tự.",
+      "emailExists": "Email này đã được đăng ký.",
+      "privacy": "Bằng việc đăng ký, bạn đồng ý với các điều khoản và chính sách bảo mật."
+    }
+  },
+  "footer": {
+    "description": "Kết nối tri thức vùng Đông Nam Bộ và Đồng bằng sông Cửu Long.",
+    "newsletter": {
+      "label": "Nhận tin mới nhất",
+      "placeholder": "Nhập email của bạn",
+      "button": "Đăng ký",
+      "success": "Đăng ký thành công!",
+      "error": "Có lỗi xảy ra."
+    },
+    "copyright": "© 2026 CLB Kết nối tri thức. Tất cả quyền được bảo lưu.",
+    "backToTop": "Lên đầu trang",
+    "legal": {
+      "privacy": "Chính sách bảo mật",
+      "terms": "Điều khoản sử dụng"
+    }
+  },
+  "faq": {
+    "scriptText": "Giải đáp thắc mắc",
+    "subtitle": "HỎI ĐÁP",
+    "title": "Câu Hỏi Thường Gặp",
+    "intro": "Tìm câu trả lời cho những thắc mắc của bạn về CLB Kết nối tri thức.",
+    "categories": {
+      "all": "Tất cả",
+      "membership": "Thành viên",
+      "resources": "Tài nguyên",
+      "partnership": "Hợp tác"
+    },
+    "contactCta": "Vẫn còn thắc mắc?",
+    "contactLink": "Liên hệ"
+  },
+  "language": {
+    "vi": "Tiếng Việt",
+    "en": "English",
+    "fr": "Français",
+    "zh": "中文",
+    "ko": "한국어",
+    "de": "Deutsch"
+  }
+}

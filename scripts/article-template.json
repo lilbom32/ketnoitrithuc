@@ -1,0 +1,10 @@
+{
+  "title": "Tiêu đề bài viết tiếng Việt",
+  "slug": "",
+  "category": "thuc-chien",
+  "excerpt": "Mô tả ngắn 1-2 câu, hiển thị ở card preview trên /kien-thuc.",
+  "author": "Ban Biên Tập",
+  "reading_time": 8,
+  "cover_image_url": null,
+  "content": "## Nội dung bài viết\n\nDán nội dung Markdown đã qua Stage 1 (travel-copywriter) và Stage 2 (anti-ai-writing) vào đây.\n\n### Ví dụ cấu trúc\n\nMỗi bài nên có:\n- Hook mở đầu mạnh (không bắt đầu bằng 'Trong bối cảnh...')\n- 3-5 section với heading H2/H3\n- Pull quote hoặc info box (dùng :::info ... :::)\n- CTA cuối bài (dùng :::cta ... :::)\n\n:::info\n**Lưu ý:** Đây là template. Thay thế toàn bộ nội dung này bằng bài viết thực.\n:::\n"
+}

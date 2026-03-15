@@ -1,0 +1,211 @@
+{
+  "nav": {
+    "about": "关于我们",
+    "news": "新闻",
+    "courses": "课程",
+    "product": "产品",
+    "resources": "资源",
+    "opportunities": "机会",
+    "partners": "合作伙伴",
+    "events": "活动",
+    "register": "注册",
+    "faq": "常见问题",
+    "login": "登录",
+    "logout": "退出登录",
+    "profile": "个人资料",
+    "community": "连接",
+    "more": "更多",
+    "dropdown": {
+      "orgChart": "组织架构图",
+      "trainingDept": "培训委员会",
+      "advisoryDept": "顾问委员会",
+      "culture": "俱乐部文化",
+      "allArticles": "所有文章",
+      "industryTrends": "行业趋势",
+      "deepAnalysis": "深度分析",
+      "masterclass": "大师课",
+      "bespoke": "定制服务",
+      "digitalLibrary": "数字图书馆",
+      "pdfViewer": "PDF 阅读器",
+      "jobs": "工作机会",
+      "scholarships": "奖学金",
+      "collaboration": "合作",
+      "strategicPartners": "战略合作伙伴",
+      "testimonials": "客户见证",
+      "collabForm": "合作表单",
+      "eventCalendar": "活动日历",
+      "eventRegister": "立即注册",
+      "archive": "存档"
+    }
+  },
+  "hero": {
+    "scriptText": "探索越南东南部知识",
+    "title": "知识俱乐部",
+    "subtitle": "连接知识",
+    "cta": "立即探索",
+    "stats": {
+      "documents": "文档",
+      "courses": "课程",
+      "members": "会员",
+      "partners": "合作伙伴"
+    }
+  },
+  "events": {
+    "scriptText": "最新活动",
+    "subtitle": "活动 & 研讨会",
+    "title": "即将举行的活动",
+    "upcomingTitle": "即将举行的活动",
+    "archiveTitle": "过往活动",
+    "location": "胡志明市及湄公河三角洲",
+    "register": "立即注册",
+    "registrationOpen": "报名开放中",
+    "registerAction": "立即报名",
+    "ended": "已结束",
+    "closed": "报名已关闭",
+    "viewAll": "查看全部活动"
+  },
+  "product": {
+    "scriptText": "提升您的技能",
+    "subtitle": "培训产品",
+    "title": "课程与服务",
+    "coursesTitle": "精选课程",
+    "bespokeTitle": "定制 - 本地内容",
+    "featured": "精选",
+    "register": "报名",
+    "learnMore": "了解更多"
+  },
+  "resources": {
+    "scriptText": "知识宝库",
+    "subtitle": "数字图书馆",
+    "title": "丰富资源",
+    "prev": "上一页",
+    "next": "下一页"
+  },
+  "news": {
+    "scriptText": "最新动态",
+    "subtitle": "新闻与知识",
+    "title": "精选文章",
+    "readMore": "阅读更多",
+    "viewAll": "查看全部文章"
+  },
+  "about": {
+    "scriptText": "我们的故事",
+    "subtitle": "关于知识俱乐部",
+    "title": "我们的历程",
+    "intro": "知识俱乐部成立的使命是连接、保护和发展关于越南东南部和湄公河三角洲的知识。",
+    "tabs": {
+      "history": "历史",
+      "advisory": "顾问委员会",
+      "training": "培训委员会",
+      "leadership": "领导层",
+      "culture": "俱乐部文化"
+    },
+    "orgChart": {
+      "title": "组织架构图",
+      "viewFull": "查看完整架构图",
+      "leadership": "领导层",
+      "advisory": "顾问委员会",
+      "training": "培训委员会"
+    },
+    "timeline": {
+      "2020": "知识俱乐部成立",
+      "2022": "战略合作伙伴扩展",
+      "2024": "在线平台上线",
+      "2026": "国际愿景"
+    },
+    "quote": "知识是引导可持续发展的明灯。"
+  },
+  "contact": {
+    "scriptText": "联系我们",
+    "subtitle": "会员注册",
+    "title": "加入社区",
+    "connect": "与我们联系",
+    "connectDesc": "发送您的问题或合作请求 — 我们的团队将在24个工作小时内回复。",
+    "phone": "电话",
+    "address": "地址",
+    "workingHours": "工作时间",
+    "subject": "主题",
+    "subjectOptions": {
+      "general": "一般咨询",
+      "membership": "会员套餐",
+      "bespoke": "定制咨询",
+      "partner": "合作伙伴"
+    },
+    "successTitle": "发送成功！",
+    "successMsg": "我们将在24个工作小时内回复。",
+    "newMessage": "发送新消息",
+    "sendError": "发生错误，请稍后重试。",
+    "info": {
+      "title": "联系信息",
+      "address": "地址",
+      "email": "电子邮件",
+      "phone": "电话",
+      "hours": "办公时间",
+      "addressValue": "越南胡志明市",
+      "emailValue": "info@clbtrithuc.vn",
+      "phoneValue": "1900 xxxx",
+      "hoursValue": "周一至周六，8:00-17:00"
+    },
+    "form": {
+      "name": "姓名",
+      "namePlaceholder": "请输入您的姓名",
+      "email": "电子邮件",
+      "emailPlaceholder": "example@email.com",
+      "phone": "电话号码",
+      "phonePlaceholder": "090x xxx xxx",
+      "password": "密码",
+      "passwordPlaceholder": "至少6个字符",
+      "confirmPassword": "确认密码",
+      "confirmPasswordPlaceholder": "请再次输入密码",
+      "tier": "会员套餐",
+      "message": "留言",
+      "messagePlaceholder": "您对什么感兴趣？",
+      "submit": "立即注册",
+      "submitting": "正在处理...",
+      "success": "注册成功！",
+      "error": "发生错误。请重试。",
+      "passwordMismatch": "密码不匹配。",
+      "weakPassword": "密码必须至少为6个字符。",
+      "emailExists": "此电子邮件已注册。",
+      "privacy": "注册即表示您同意我们的条款和隐私政策。"
+    }
+  },
+  "footer": {
+    "description": "连接越南东南部和湄公河三角洲的知识。",
+    "newsletter": {
+      "label": "订阅通讯",
+      "placeholder": "请输入您的电子邮件",
+      "button": "订阅",
+      "success": "订阅成功！",
+      "error": "发生错误。"
+    },
+    "copyright": "© 2026 知识俱乐部。保留所有权利。",
+    "backToTop": "返回顶部",
+    "legal": {
+      "privacy": "隐私政策",
+      "terms": "使用条款"
+    }
+  },
+  "faq": {
+    "scriptText": "解答您的疑问",
+    "subtitle": "常见问题",
+    "title": "常见问题",
+    "intro": "查找关于知识俱乐部的常见问题解答。",
+    "categories": {
+      "all": "全部",
+      "membership": "会员",
+      "resources": "资源",
+      "partnership": "合作"
+    },
+    "contactCta": "仍有疑问？",
+    "contactLink": "联系我们"
+  },
+  "language": {
+    "vi": "Tiếng Việt",
+    "en": "English",
+    "fr": "Français",
+    "zh": "中文",
+    "ko": "한국어",
+    "de": "Deutsch"
+  }
+}
