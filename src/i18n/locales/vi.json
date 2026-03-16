@@ -40,7 +40,7 @@
   },
   "hero": {
     "scriptText": "Khám phá kiến thức vùng Đông Nam Bộ",
-    "title": "CLB Kết nối tri thức",
+    "title": "Câu lạc bộ Tri thức Du lịch",
     "subtitle": "Kết Nối Tri Thức",
     "cta": "Khám phá ngay",
     "stats": {
@@ -90,9 +90,9 @@
   },
   "about": {
     "scriptText": "Câu chuyện của chúng tôi",
-    "subtitle": "VỀ CLB KẾT NỐI TRI THỨC",
+    "subtitle": "VỀ CÂU LẠC BỘ TRI THỨC DU LỊCH",
     "title": "Hành Trình Phát Triển",
-    "intro": "CLB Kết nối tri thức được thành lập với sứ mệnh kết nối, bảo tồn và phát triển tri thức về vùng Đông Nam Bộ và Đồng bằng sông Cửu Long.",
+    "intro": "Câu lạc bộ Tri thức Du lịch được thành lập với sứ mệnh kết nối, bảo tồn và phát triển tri thức về vùng Đông Nam Bộ và Đồng bằng sông Cửu Long.",
     "tabs": {
       "history": "Lịch sử",
       "advisory": "Ban Tư vấn",
@@ -108,7 +108,7 @@
       "training": "Ban Đào tạo"
     },
     "timeline": {
-      "2020": "Thành lập CLB Kết nối tri thức",
+      "2020": "Thành lập Câu lạc bộ Tri thức Du lịch",
       "2022": "Mở rộng đối tác chiến lược",
       "2024": "Ra mắt nền tảng online",
       "2026": "Tầm nhìn quốc tế"
@@ -179,7 +179,7 @@
       "success": "Đăng ký thành công!",
       "error": "Có lỗi xảy ra."
     },
-    "copyright": "© 2026 CLB Kết nối tri thức. Tất cả quyền được bảo lưu.",
+    "copyright": "© 2026 Câu lạc bộ Tri thức Du lịch. Tất cả quyền được bảo lưu.",
     "backToTop": "Lên đầu trang",
     "legal": {
       "privacy": "Chính sách bảo mật",
@@ -190,7 +190,7 @@
     "scriptText": "Giải đáp thắc mắc",
     "subtitle": "HỎI ĐÁP",
     "title": "Câu Hỏi Thường Gặp",
-    "intro": "Tìm câu trả lời cho những thắc mắc của bạn về CLB Kết nối tri thức.",
+    "intro": "Tìm câu trả lời cho những thắc mắc của bạn về Câu lạc bộ Tri thức Du lịch.",
     "categories": {
       "all": "Tất cả",
       "membership": "Thành viên",

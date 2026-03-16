@@ -8,7 +8,7 @@ const BespokePage: NextPage = () => {
   return (
     <PageLayout>
       <Head>
-        <title>Bespoke - Giải pháp Tri thức Địa phương | CLB Kết nối tri thức</title>
+        <title>Bespoke - Giải pháp Tri thức Địa phương | Câu lạc bộ Tri thức Du lịch</title>
         <meta name="description" content="Nội dung tri thức chuyên biệt cho vùng Đông Nam Bộ và Đồng bằng sông Cửu Long. Giải pháp đào tạo và nghiên cứu may đo cho doanh nghiệp địa phương." />
       </Head>
 

@@ -39,7 +39,7 @@ const TaiNguyenPage: NextPage<TaiNguyenPageProps> = ({ documents, categories }) 
   return (
     <PageLayout>
       <Head>
-        <title>Thư viện số & Tài nguyên | CLB Kết nối tri thức</title>
+        <title>Thư viện số & Tài nguyên | Câu lạc bộ Tri thức Du lịch</title>
         <meta
           name="description"
           content="Khám phá kho tài liệu số, ebook, báo cáo nghiên cứu và học liệu chuyên sâu cho ngành du lịch và khách sạn."
@@ -187,7 +187,7 @@ const TaiNguyenPage: NextPage<TaiNguyenPageProps> = ({ documents, categories }) 
                 <h2 className="font-serif text-3xl md:text-4xl mb-4">Mở khóa toàn bộ thư viện</h2>
                 <p className="text-white/70 text-lg leading-relaxed">
                   Đăng ký thành viên để nhận quyền truy cập không giới hạn vào tất cả tài liệu,
-                  báo cáo độc quyền và học liệu chuyên sâu của CLB Kết nối tri thức.
+                  báo cáo độc quyền và học liệu chuyên sâu của Câu lạc bộ Tri thức Du lịch.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">

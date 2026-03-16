@@ -40,8 +40,8 @@ const DangNhapPage: NextPage = () => {
   return (
     <PageLayout>
       <Head>
-        <title>Đăng nhập | CLB Kết nối tri thức</title>
-        <meta name="description" content="Đăng nhập vào CLB Kết nối tri thức để truy cập thư viện tài liệu và nội dung độc quyền." />
+        <title>Đăng nhập | Câu lạc bộ Tri thức Du lịch</title>
+        <meta name="description" content="Đăng nhập vào Câu lạc bộ Tri thức Du lịch để truy cập thư viện tài liệu và nội dung độc quyền." />
       </Head>
 
       <section className="min-h-[calc(100vh-72px)] bg-[#F5F7FA] flex items-center justify-center py-16 px-4">
@@ -53,7 +53,7 @@ const DangNhapPage: NextPage = () => {
                 <LogIn className="w-7 h-7 text-[#1E2761]" />
               </div>
               <h1 className="font-serif text-3xl text-[#1E2761] mb-2">Đăng nhập</h1>
-              <p className="text-gray-400 text-sm">Chào mừng trở lại, CLB Kết nối tri thức</p>
+              <p className="text-gray-400 text-sm">Chào mừng trở lại, Câu lạc bộ Tri thức Du lịch</p>
             </div>
 
             <form onSubmit={handleSubmit} className="space-y-4">

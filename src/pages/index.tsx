@@ -53,7 +53,7 @@ export default function HomePage() {
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:locale" content="vi_VN" />
-        <meta property="og:site_name" content="CLB Kết nối tri thức" />
+        <meta property="og:site_name" content="Câu lạc bộ Tri thức Du lịch" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />

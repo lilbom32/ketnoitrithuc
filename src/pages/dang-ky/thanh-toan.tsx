@@ -47,8 +47,8 @@ const ThanhToanPage: NextPage = () => {
   return (
     <PageLayout>
       <Head>
-        <title>Thanh toán Premium | CLB Kết nối tri thức</title>
-        <meta name="description" content="Hoàn tất thanh toán để kích hoạt gói Premium của CLB Kết nối tri thức." />
+        <title>Thanh toán Premium | Câu lạc bộ Tri thức Du lịch</title>
+        <meta name="description" content="Hoàn tất thanh toán để kích hoạt gói Premium của Câu lạc bộ Tri thức Du lịch." />
       </Head>
 
       <section className="min-h-[calc(100vh-72px)] bg-[#F5F7FA] flex items-center justify-center py-16 px-4">
@@ -68,9 +68,7 @@ const ThanhToanPage: NextPage = () => {
               <div className="bg-[#F5F7FA] rounded-2xl p-6 mb-6 border border-[#CADCFC]">
                 <div className="flex items-center justify-between mb-4">
                   <span className="font-medium text-[#1E2761]">Thành viên Chuyên nghiệp</span>
-                  <span className="font-bold text-[#1E2761] text-lg">499.000đ</span>
                 </div>
-                <div className="text-xs text-gray-400 mb-4">Hóa đơn hàng năm — gia hạn tự động</div>
                 <ul className="space-y-2">
                   {[
                     'Truy cập kho PDF không giới hạn',

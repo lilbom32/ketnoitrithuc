@@ -62,7 +62,7 @@ export default function AdminDashboard({ stats, recentArticles, recentJobs }: Da
         {/* Welcome */}
         <div>
           <h2 className="text-2xl font-serif font-bold text-white mb-1">Xin chào!</h2>
-          <p className="text-slate-400 text-sm">Quản lý nội dung website CLB Kết nối tri thức.</p>
+          <p className="text-slate-400 text-sm">Quản lý nội dung website Câu lạc bộ Tri thức Du lịch.</p>
         </div>
 
         {/* Quick Actions */}

@@ -35,7 +35,7 @@ export default function AdminLoginPage() {
   return (
     <>
       <Head>
-        <title>Admin Login | CLB Kết nối tri thức</title>
+        <title>Admin Login | Câu lạc bộ Tri thức Du lịch</title>
       </Head>
       <div className="min-h-screen bg-[#0F172A] flex items-center justify-center p-6">
         <div className="w-full max-w-sm">
@@ -44,7 +44,7 @@ export default function AdminLoginPage() {
             <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-[#1E2761] border border-white/10 mb-4 shadow-xl">
               <Shield className="w-8 h-8 text-[#E63946]" />
             </div>
-            <h1 className="text-2xl font-serif font-bold text-white">CLB Kết nối tri thức</h1>
+            <h1 className="text-2xl font-serif font-bold text-white">Câu lạc bộ Tri thức Du lịch</h1>
             <p className="text-slate-400 text-sm mt-1">Admin Panel — Đăng nhập</p>
           </div>
 
@@ -91,7 +91,7 @@ export default function AdminLoginPage() {
           </div>
 
           <p className="text-center text-xs text-slate-600 mt-6">
-            CLB Kết nối tri thức — Nội bộ
+            Câu lạc bộ Tri thức Du lịch — Nội bộ
           </p>
         </div>
       </div>

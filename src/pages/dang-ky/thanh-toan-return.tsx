@@ -43,7 +43,7 @@ const ThanhToanReturnPage: NextPage<Props> = ({ status }) => {
     <PageLayout>
       <Head>
         <title>
-          {status === 'success' ? 'Thanh toán thành công' : 'Kết quả thanh toán'} | CLB Kết nối tri thức
+          {status === 'success' ? 'Thanh toán thành công' : 'Kết quả thanh toán'} | Câu lạc bộ Tri thức Du lịch
         </title>
       </Head>
 

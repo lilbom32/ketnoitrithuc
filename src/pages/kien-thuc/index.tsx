@@ -41,7 +41,7 @@ const KnowledgeHub: NextPage<Props> = ({ articles }) => {
   return (
     <PageLayout>
       <Head>
-        <title>Kho Tri Thức | CLB Kết nối tri thức</title>
+        <title>Kho Tri Thức | Câu lạc bộ Tri thức Du lịch</title>
         <meta
           name="description"
           content="Bài viết chuyên sâu về vận hành du lịch, phân tích thị trường, và tri thức ngành cho các chuyên gia."

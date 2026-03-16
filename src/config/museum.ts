@@ -19,7 +19,7 @@ export interface MuseumConfig {
 
 export const museumConfig: MuseumConfig = {
   title: "Hành Trình Phát Triển",
-  subtitle: "VỀ CLB KẾT NỐI TRI THỨC",
+  subtitle: "VỀ CÂU LẠC BỘ TRI THỨC DU LỊCH",
   tabs: [
     {
       id: "history",

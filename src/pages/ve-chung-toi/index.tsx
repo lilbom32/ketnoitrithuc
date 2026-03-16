@@ -47,10 +47,10 @@ const VeChungToiPage: NextPage = () => {
   return (
     <PageLayout>
       <Head>
-        <title>Về Chúng Tôi | CLB Kết nối tri thức</title>
+        <title>Về Chúng Tôi | Câu lạc bộ Tri thức Du lịch</title>
         <meta
           name="description"
-          content="CLB Kết nối tri thức — cộng đồng B2B cho travel agents, tour operators và hospitality managers tại Việt Nam. Sứ mệnh kết nối tri thức và kiến tạo giá trị ngành."
+          content="Câu lạc bộ Tri thức Du lịch — cộng đồng B2B cho travel agents, tour operators và hospitality managers tại Việt Nam. Sứ mệnh kết nối tri thức và kiến tạo giá trị ngành."
         />
       </Head>
 
@@ -62,7 +62,7 @@ const VeChungToiPage: NextPage = () => {
             Cộng đồng tri thức<br />cho ngành du lịch Việt
           </h1>
           <p className="text-white/70 text-xl max-w-2xl leading-relaxed">
-            Không phải hội nhóm mạng xã hội. CLB Kết nối tri thức là nơi các chuyên gia B2B
+            Không phải hội nhóm mạng xã hội. Câu lạc bộ Tri thức Du lịch là nơi các chuyên gia B2B
             trao đổi kinh nghiệm thực chiến, cập nhật xu hướng và xây dựng năng lực cạnh tranh.
           </p>
           <div className="flex flex-wrap gap-4 mt-8">
@@ -108,7 +108,7 @@ const VeChungToiPage: NextPage = () => {
                 — từng người tự mò mẫm, thiếu cộng đồng chia sẻ thực chất.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                CLB Kết nối tri thức ra đời để tập trung kinh nghiệm thực chiến của những người trong cuộc,
+                Câu lạc bộ Tri thức Du lịch ra đời để tập trung kinh nghiệm thực chiến của những người trong cuộc,
                 từ tour operator đến hotel revenue manager, và biến nó thành nguồn học liệu dùng được ngay.
               </p>
             </div>

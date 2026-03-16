@@ -49,7 +49,7 @@ const JobBoard: NextPage<Props> = ({ jobs }) => {
   return (
     <>
       <Head>
-        <title>Cơ Hội Việc Làm | CLB Kết nối tri thức</title>
+        <title>Cơ Hội Việc Làm | Câu lạc bộ Tri thức Du lịch</title>
         <meta
           name="description"
           content="Cơ hội việc làm trong ngành du lịch và khách sạn dành cho các chuyên gia."

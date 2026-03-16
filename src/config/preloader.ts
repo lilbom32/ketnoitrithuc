@@ -5,7 +5,7 @@ export interface PreloaderConfig {
 }
 
 export const preloaderConfig: PreloaderConfig = {
-  brandName: "CLB Kết nối tri thức",
-  brandSubname: "Knowledge Club",
+  brandName: "Câu lạc bộ Tri thức Du lịch",
+  brandSubname: "CLB Tri thức Du lịch",
   yearText: "Est. 2015",
 };

@@ -17,7 +17,7 @@ const DoiTacPage: NextPage = () => {
     {
       name: 'Nguyễn Văn A',
       role: 'CEO Mekong Travel',
-      content: 'CLB Kết nối tri thức đã giúp đội ngũ của chúng tôi cập nhật những xu hướng mới nhất trong quản trị du lịch bền vững. Đây thực sự là một nền tảng giá trị.',
+      content: 'Câu lạc bộ Tri thức Du lịch đã giúp đội ngũ của chúng tôi cập nhật những xu hướng mới nhất trong quản trị du lịch bền vững. Đây thực sự là một nền tảng giá trị.',
     },
     {
       name: 'Lê Thị B',
@@ -29,8 +29,8 @@ const DoiTacPage: NextPage = () => {
   return (
     <PageLayout>
       <Head>
-        <title>Đối tác & Hợp tác chiến lược | CLB Kết nối tri thức</title>
-        <meta name="description" content="Kết nối với mạng lưới đối tác doanh nghiệp, lữ hành và khách sạn hàng đầu. Khám phá các cơ hội hợp tác và phát triển cùng CLB Kết nối tri thức." />
+        <title>Đối tác & Hợp tác chiến lược | Câu lạc bộ Tri thức Du lịch</title>
+        <meta name="description" content="Kết nối với mạng lưới đối tác doanh nghiệp, lữ hành và khách sạn hàng đầu. Khám phá các cơ hội hợp tác và phát triển cùng Câu lạc bộ Tri thức Du lịch." />
       </Head>
 
       {/* Hero Section */}
@@ -41,7 +41,7 @@ const DoiTacPage: NextPage = () => {
           <h1 className="font-serif text-5xl md:text-6xl mb-6">Đồng hành cùng phát triển</h1>
           <p className="text-white/70 text-xl leading-relaxed mb-10">
             Chúng tôi tin rằng sức mạnh tri thức sẽ được nhân đôi khi có sự cộng hưởng từ các đối tác chiến lược. 
-            CLB Kết nối tri thức tự hào đồng hành cùng 40+ doanh nghiệp hàng đầu trong ngành.
+            Câu lạc bộ Tri thức Du lịch tự hào đồng hành cùng 40+ doanh nghiệp hàng đầu trong ngành.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <button className="px-10 py-4 bg-[#E63946] text-white rounded-xl font-bold hover:bg-[#E63946]/90 transition-all shadow-xl">
@@ -111,7 +111,7 @@ const DoiTacPage: NextPage = () => {
         <div className="container-custom">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="font-serif text-4xl text-[#1E2761] mb-8 pr-12">Tại sao chọn đồng hành cùng CLB Kết nối tri thức?</h2>
+              <h2 className="font-serif text-4xl text-[#1E2761] mb-8 pr-12">Tại sao chọn đồng hành cùng Câu lạc bộ Tri thức Du lịch?</h2>
               <div className="space-y-8">
                 {[
                   { title: 'Tiếp cận cộng đồng chuyên gia', desc: 'Kết nối trực tiếp với 500+ thành viên là quản lý, chuyên viên trong ngành.' },

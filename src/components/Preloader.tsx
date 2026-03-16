@@ -31,7 +31,7 @@ export function Preloader({ onComplete }: { onComplete: () => void }) {
       <div className="preloader-text mb-6">
         <img
           src={CLB_LOGO_URL}
-          alt="CLB Kết nối tri thức"
+          alt="Câu lạc bộ Tri thức Du lịch"
           className="w-24 h-24 rounded-full object-cover shadow-2xl ring-2 ring-white/20"
         />
       </div>

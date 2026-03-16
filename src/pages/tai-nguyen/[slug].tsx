@@ -93,7 +93,7 @@ const TaiNguyenDocPage: NextPage<Props> = ({ doc }) => {
     <PageLayout>
       <Head>
         <title>{doc.title} | Thư viện Tri Thức</title>
-        <meta name="description" content={doc.description ?? `Đọc tài liệu ${doc.title} tại CLB Kết nối tri thức.`} />
+        <meta name="description" content={doc.description ?? `Đọc tài liệu ${doc.title} tại Câu lạc bộ Tri thức Du lịch.`} />
       </Head>
 
       {/* Header */}

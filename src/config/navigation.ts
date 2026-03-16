@@ -21,8 +21,8 @@ export interface NavigationConfig {
 }
 
 export const navigationConfig: NavigationConfig = {
-  brandName: "CLB Kết nối tri thức",
-  brandSubname: "Knowledge Club",
+  brandName: "Câu lạc bộ Tri thức Du lịch",
+  brandSubname: "CLB Tri thức Du lịch",
   tagline: "Kết nối tri thức - Kiến tạo giá trị",
   navLinks: [
     {

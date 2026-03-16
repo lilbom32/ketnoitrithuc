@@ -43,8 +43,8 @@ export interface FooterConfig {
 }
 
 export const footerConfig: FooterConfig = {
-  brandName: "CLB Kết nối tri thức",
-  tagline: "Knowledge Club",
+  brandName: "Câu lạc bộ Tri thức Du lịch",
+  tagline: "CLB Tri thức Du lịch",
   description: "Kết nối tri thức vùng Đông Nam Bộ và Đồng bằng sông Cửu Long. Bảo tồn, phát triển và chia sẻ giá trị văn hóa, xã hội và kinh tế địa phương.",
   socialLinks: [
     { icon: "Facebook",  label: "Facebook",  href: "https://facebook.com/clbtrithuc" },
@@ -93,7 +93,7 @@ export const footerConfig: FooterConfig = {
   newsletterEndpoint: process.env.NEXT_PUBLIC_FORMSPREE_NEWSLETTER_ID
     ? `https://formspree.io/f/${process.env.NEXT_PUBLIC_FORMSPREE_NEWSLETTER_ID}`
     : "",
-  copyrightText: "© 2026 CLB Kết nối tri thức. Tất cả quyền được bảo lưu.",
+  copyrightText: "© 2026 Câu lạc bộ Tri thức Du lịch. Tất cả quyền được bảo lưu.",
   legalLinks: ["Chính sách bảo mật", "Điều khoản sử dụng"],
   icpText: "",
   backToTopText: "Lên đầu trang",

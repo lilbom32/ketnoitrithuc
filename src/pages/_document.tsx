@@ -23,11 +23,11 @@ export default function AppDocument({ locale }: { locale?: string }) {
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'Organization',
-              name: 'CLB Kết nối tri thức',
-              alternateName: 'Knowledge Club',
+              name: 'Câu lạc bộ Tri thức Du lịch',
+              alternateName: 'CLB Tri thức Du lịch',
               url: 'https://clbtrithuc.vn',
               description:
-                'Nền tảng tri thức số theo mô hình membership dành cho cộng đồng học thuật và kinh doanh Việt Nam vùng Đông Nam Á và Mekong.',
+                'Cộng đồng tri thức cho travel agents, tour operators và hospitality managers tại Việt Nam vùng Đông Nam Bộ và Mekong.',
               foundingDate: '2015-11-11',
               areaServed: ['VN', 'KH', 'LA', 'MM', 'TH'],
               inLanguage: ['vi', 'en', 'zh', 'fr', 'ko', 'de'],

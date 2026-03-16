@@ -9,7 +9,7 @@ const SanPhamPage: NextPage = () => {
   return (
     <PageLayout>
       <Head>
-        <title>Sản phẩm & Khóa học | CLB Kết nối tri thức</title>
+        <title>Sản phẩm & Khóa học | Câu lạc bộ Tri thức Du lịch</title>
         <meta name="description" content="Khám phá các khóa học nghiệp vụ, học thuật và các chương trình đào tạo chuyên sâu dành cho ngành du lịch & khách sạn." />
       </Head>
 
@@ -105,10 +105,9 @@ const SanPhamPage: NextPage = () => {
                   <h3 className="font-serif text-xl text-[#1E2761] mb-3 group-hover:text-[#E63946] transition-colors leading-tight">{course.name}</h3>
                   <p className="text-gray-600 text-sm mb-6 line-clamp-2">{course.description}</p>
                   
-                  <div className="mt-auto pt-6 border-t border-gray-100 flex items-center justify-between">
-                    <div className="font-bold text-[#E63946] text-lg">{course.price}</div>
-                    <button className="p-2 bg-[#F5F7FA] text-[#1E2761] rounded-full hover:bg-[#E63946] hover:text-white transition-all group/btn">
-                      <ChevronRight className="w-5 h-5 group-hover/btn:translate-x-0.5" />
+                  <div className="mt-auto pt-6 border-t border-gray-100">
+                    <button className="w-full py-2.5 bg-[#1E2761] text-white rounded-xl text-sm font-bold hover:bg-[#E63946] transition-all">
+                      Liên hệ đăng ký
                     </button>
                   </div>
                 </div>

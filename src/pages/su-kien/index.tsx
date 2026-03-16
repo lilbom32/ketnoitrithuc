@@ -178,8 +178,8 @@ const SuKienPage: NextPage = () => {
   return (
     <PageLayout>
       <Head>
-        <title>Sự kiện & Hội thảo | CLB Kết nối tri thức</title>
-        <meta name="description" content="Cập nhật lịch các chương trình hội thảo, workshop, networking và các khóa đào tạo chuyên sâu của CLB Kết nối tri thức." />
+        <title>Sự kiện & Hội thảo | Câu lạc bộ Tri thức Du lịch</title>
+        <meta name="description" content="Cập nhật lịch các chương trình hội thảo, workshop, networking và các khóa đào tạo chuyên sâu của Câu lạc bộ Tri thức Du lịch." />
       </Head>
 
       {/* Hero Section */}

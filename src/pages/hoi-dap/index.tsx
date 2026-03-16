@@ -23,8 +23,8 @@ const HoiDapPage: NextPage = () => {
   return (
     <PageLayout>
       <Head>
-        <title>Hỏi đáp & Liên hệ | CLB Kết nối tri thức</title>
-        <meta name="description" content="Tìm câu trả lời cho các thắc mắc thường gặp về CLB Kết nối tri thức hoặc gửi tin nhắn trực tiếp cho ban quản trị CLB." />
+        <title>Hỏi đáp & Liên hệ | Câu lạc bộ Tri thức Du lịch</title>
+        <meta name="description" content="Tìm câu trả lời cho các thắc mắc thường gặp về Câu lạc bộ Tri thức Du lịch hoặc gửi tin nhắn trực tiếp cho ban quản trị CLB." />
       </Head>
 
       {/* Hero Section */}

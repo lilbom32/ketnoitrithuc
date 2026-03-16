@@ -8,10 +8,10 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  title: "CLB Kết nối tri thức - Kết nối tri thức vùng Đông Nam Bộ",
-  description: "CLB Kết nối tri thức là nền tảng tri thức số cho cộng đồng học tập và kinh doanh Việt Nam. Khám phá kho tài liệu phong phú, khóa học chuyên sâu và cơ hội nghề nghiệp.",
+  title: "Câu lạc bộ Tri thức Du lịch - Cộng đồng tri thức ngành du lịch Việt Nam",
+  description: "Câu lạc bộ Tri thức Du lịch là cộng đồng tri thức cho travel agents, tour operators và hospitality managers tại Việt Nam. Chia sẻ tài liệu, kết nối chuyên gia và cập nhật xu hướng ngành.",
   language: "vi",
-  keywords: "CLB Kết nối tri thức, Mekong Delta, Đông Nam Bộ, tài liệu, khóa học, tri thức",
+  keywords: "Câu lạc bộ Tri thức Du lịch, CLB Tri thức Du lịch, Mekong Delta, Đông Nam Bộ, tài liệu, du lịch, tri thức",
   ogImage: "/images/og-banner.jpg",
   canonical: "https://clbtrithuc.vn",
 };

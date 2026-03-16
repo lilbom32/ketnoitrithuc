@@ -23,7 +23,7 @@ export interface FAQConfig {
 export const faqConfig: FAQConfig = {
   subtitle: "HỎI ĐÁP",
   title: "Câu Hỏi Thường Gặp",
-  introText: "Tìm câu trả lời cho những thắc mắc của bạn về CLB Kết nối tri thức.",
+  introText: "Tìm câu trả lời cho những thắc mắc của bạn về Câu lạc bộ Tri thức Du lịch.",
   categories: [
     { id: "all", i18nKey: "faq.categories.all" },
     { id: "membership", i18nKey: "faq.categories.membership" },
@@ -33,8 +33,8 @@ export const faqConfig: FAQConfig = {
   items: [
     {
       id: "1",
-      question: "Câu lạc bộ Tri Thức là gì?",
-      answer: "CLB Kết nối tri thức là cộng đồng kết nối những người đam mê văn hóa và lịch sử vùng Đông Nam Bộ & Đồng bằng sông Cửu Long.",
+      question: "Câu lạc bộ Tri thức Du lịch là gì?",
+      answer: "Câu lạc bộ Tri thức Du lịch là cộng đồng kết nối những người đam mê văn hóa và lịch sử vùng Đông Nam Bộ & Đồng bằng sông Cửu Long.",
       categoryId: "membership",
     },
     {

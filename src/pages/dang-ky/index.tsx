@@ -35,7 +35,7 @@ const DangKyPage: NextPage = () => {
     {
       id: 'pro',
       name: 'Thành viên Chuyên nghiệp',
-      price: '499.000đ/năm',
+      price: '',
       desc: 'Dành cho chuyên viên muốn nâng tầm sự nghiệp.',
       features: ['Truy cập kho PDF không giới hạn', 'Ưu đãi 20% các khóa học', 'Thẻ thành viên điện tử', 'Ưu tiên đăng ký sự kiện'],
       color: 'bg-[#1E2761]',
@@ -58,8 +58,8 @@ const DangKyPage: NextPage = () => {
   return (
     <PageLayout>
       <Head>
-        <title>Đăng ký Thành viên | CLB Kết nối tri thức</title>
-        <meta name="description" content="Gia nhập cộng đồng tri thức du lịch lớn nhất phía Nam. Lựa chọn gói hội viên phù hợp để mở khóa các đặc quyền độc quyền." />
+        <title>Đăng ký Thành viên | Câu lạc bộ Tri thức Du lịch</title>
+        <meta name="description" content="Gia nhập cộng đồng tri thức du lịch. Đăng ký thành viên để tham gia chia sẻ tri thức và kết nối với các chuyên gia ngành." />
       </Head>
 
       {/* Hero Section */}
@@ -172,8 +172,8 @@ const DangKyPage: NextPage = () => {
                 ))}
               </div>
               <p className="text-white/40 text-xs leading-relaxed max-w-md">
-                Bằng cách đăng ký, bạn đồng ý với Điều khoản dịch vụ và Chính sách bảo mật của CLB
-                Kết nối tri thức.
+                Bằng cách đăng ký, bạn đồng ý với Điều khoản dịch vụ và Chính sách bảo mật của
+                Câu lạc bộ Tri thức Du lịch.
               </p>
             </div>
 
@@ -294,7 +294,7 @@ const DangKyPage: NextPage = () => {
                     </div>
                     {selectedTier === 'pro' && (
                       <p className="text-xs text-gray-400 -mt-1 px-1">
-                        499.000đ/năm — bạn sẽ được chuyển đến thanh toán sau khi xác thực email.
+                        Gói Chuyên nghiệp — bạn sẽ được liên hệ sau khi xác thực email.
                       </p>
                     )}
 

@@ -85,7 +85,7 @@ export const contactFormConfig: ContactFormConfig = {
     weakPasswordError: "Mật khẩu quá yếu. Vui lòng sử dụng ít nhất 6 ký tự.",
     passwordMismatchError: "Mật khẩu xác nhận không khớp.",
   },
-  privacyNotice: "Bằng việc đăng ký, bạn đồng ý với các điều khoản và chính sách bảo mật của CLB Kết nối tri thức.",
+  privacyNotice: "Bằng việc đăng ký, bạn đồng ý với các điều khoản và chính sách bảo mật của Câu lạc bộ Tri thức Du lịch.",
 };
 
 /** Flat contact info for ContactForm section (home page). */

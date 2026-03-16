@@ -56,7 +56,7 @@ const ArticlePage: NextPage<Props> = ({ article, htmlContent }) => {
   return (
     <>
       <Head>
-        <title>{article.title} | CLB Kết nối tri thức</title>
+        <title>{article.title} | Câu lạc bộ Tri thức Du lịch</title>
         <meta name="description" content={description} />
         <link rel="canonical" href={canonicalUrl} />
 
@@ -68,7 +68,7 @@ const ArticlePage: NextPage<Props> = ({ article, htmlContent }) => {
         <meta property="og:image" content={ogImage} />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:site_name" content="CLB Kết nối tri thức" />
+        <meta property="og:site_name" content="Câu lạc bộ Tri thức Du lịch" />
         <meta property="article:published_time" content={article.created_at} />
         {article.author && <meta property="article:author" content={article.author} />}
 
@@ -93,10 +93,10 @@ const ArticlePage: NextPage<Props> = ({ article, htmlContent }) => {
               dateModified: article.updated_at,
               author: article.author
                 ? { '@type': 'Person', name: article.author }
-                : { '@type': 'Organization', name: 'CLB Kết nối tri thức' },
+                : { '@type': 'Organization', name: 'Câu lạc bộ Tri thức Du lịch' },
               publisher: {
                 '@type': 'Organization',
-                name: 'CLB Kết nối tri thức',
+                name: 'Câu lạc bộ Tri thức Du lịch',
                 url: BASE_URL,
                 logo: { '@type': 'ImageObject', url: `${BASE_URL}/images/logo clb.jpg` },
               },

@@ -45,7 +45,7 @@ export default function AdminLayout({ children, title = 'Admin' }: AdminLayoutPr
     <aside className="flex flex-col h-full bg-[#1E2761] text-white w-64 shrink-0">
       {/* Logo */}
       <div className="px-6 py-5 border-b border-white/10">
-        <p className="text-xs font-bold uppercase tracking-widest text-white/50 mb-1">CLB Kết nối tri thức</p>
+        <p className="text-xs font-bold uppercase tracking-widest text-white/50 mb-1">Câu lạc bộ Tri thức Du lịch</p>
         <p className="text-lg font-serif font-bold text-white">Admin Panel</p>
       </div>
 
@@ -91,7 +91,7 @@ export default function AdminLayout({ children, title = 'Admin' }: AdminLayoutPr
   return (
     <>
       <Head>
-        <title>{title} | CLB Kết nối tri thức Admin</title>
+        <title>{title} | Câu lạc bộ Tri thức Du lịch Admin</title>
       </Head>
 
       <div className="min-h-screen bg-[#0F172A] text-slate-200 flex">

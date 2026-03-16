@@ -25,15 +25,15 @@ const CoHoiPage: NextPage<Props> = ({ jobs }) => {
   ];
 
   const SCHOLARSHIPS = [
-    { title: 'Học bổng Tài năng Du lịch Mekong 2026', provider: 'CLB Kết nối tri thức', value: '100% học phí', deadline: '30/06/2026' },
+    { title: 'Học bổng Tài năng Du lịch Mekong 2026', provider: 'Câu lạc bộ Tri thức Du lịch', value: '100% học phí', deadline: '30/06/2026' },
     { title: 'Học bổng Thạc sĩ Quản trị Khách sạn tại Thụy Sĩ', provider: 'Học viện Glion', value: '50% học phí', deadline: '15/05/2026' },
   ];
 
   return (
     <PageLayout>
       <Head>
-        <title>Cơ hội Nghề nghiệp & Học bổng | CLB Kết nối tri thức</title>
-        <meta name="description" content="Khám phá các cơ hội việc làm, học bổng và cộng tác chuyên môn trong mạng lưới thành viên CLB Kết nối tri thức." />
+        <title>Cơ hội Nghề nghiệp & Học bổng | Câu lạc bộ Tri thức Du lịch</title>
+        <meta name="description" content="Khám phá các cơ hội việc làm, học bổng và cộng tác chuyên môn trong mạng lưới thành viên Câu lạc bộ Tri thức Du lịch." />
       </Head>
 
       {/* Hero Section */}
@@ -43,7 +43,7 @@ const CoHoiPage: NextPage<Props> = ({ jobs }) => {
             <span className="text-[#E63946] font-bold uppercase tracking-widest text-xs mb-4 block">Mạng lưới kết nối</span>
             <h1 className="font-serif text-4xl md:text-5xl text-[#1E2761] mb-6">Mở cửa cơ hội chuyển mình</h1>
             <p className="text-gray-500 text-lg leading-relaxed mb-8">
-              CLB Kết nối tri thức không chỉ là nơi học tập mà còn là cầu nối nghề nghiệp uy tín. 
+              Câu lạc bộ Tri thức Du lịch không chỉ là nơi học tập mà còn là cầu nối nghề nghiệp uy tín. 
               Khám phá các vị trí tuyển dụng, chương trình học bổng và dự án cộng tác từ các đối tác hàng đầu.
             </p>
           </div>

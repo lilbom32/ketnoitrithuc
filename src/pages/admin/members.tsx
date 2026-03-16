@@ -102,7 +102,7 @@ export default function MembersPage({ initialMembers }: MembersPageProps) {
   return (
     <div className="min-h-screen bg-[#0F172A] text-slate-200 p-6 lg:p-10">
       <Head>
-        <title>Member Management | CLB Kết nối tri thức Admin</title>
+        <title>Member Management | Câu lạc bộ Tri thức Du lịch Admin</title>
       </Head>
 
       <div className="max-w-7xl mx-auto">

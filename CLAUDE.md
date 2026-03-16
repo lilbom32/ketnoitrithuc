@@ -1,4 +1,4 @@
-# CLB Kết nối tri thức — Project Guide
+# Câu lạc bộ Tri thức Du lịch — Project Guide
 
 ## Project Overview
 Website của **Câu lạc bộ Tri thức Du lịch** — cộng đồng B2B cho travel agents, tour operators, và hospitality managers tại Việt Nam.
