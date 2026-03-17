@@ -17,7 +17,7 @@ export interface HeroConfig {
 }
 
 export const heroConfig: HeroConfig = {
-  scriptText: "Khám phá kiến thức vùng Đông Nam Bộ",
+  scriptText: "Khám phá kiến thức Việt Nam",
   mainTitle: "Câu lạc bộ Tri thức Du lịch",
   subtitle: "Kết Nối Tri Thức - Kiến Tạo Giá Trị",
   backgroundImage: "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&q=80",

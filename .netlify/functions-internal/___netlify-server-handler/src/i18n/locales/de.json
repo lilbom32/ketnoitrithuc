@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "about": "Über Uns",
+    "news": "Nachrichten",
+    "courses": "Kurse",
+    "product": "Produkt",
+    "resources": "Ressourcen",
+    "opportunities": "Möglichkeiten",
+    "partners": "Partner",
+    "events": "Veranstaltungen",
+    "register": "Registrieren",
+    "faq": "FAQ",
+    "login": "Anmelden",
+    "logout": "Abmelden",
+    "profile": "Profil",
+    "community": "Verbinden",
+    "more": "Mehr",
+    "dropdown": {
+      "orgChart": "Organigramm",
+      "trainingDept": "Ausbildungsrat",
+      "advisoryDept": "Beirat",
+      "culture": "Clubkultur",
+      "allArticles": "Alle Artikel",
+      "industryTrends": "Branchentrends",
+      "deepAnalysis": "Tiefenanalyse",
+      "masterclass": "Masterclass",
+      "bespoke": "Maßgeschneidert",
+      "digitalLibrary": "Digitale Bibliothek",
+      "pdfViewer": "PDF-Viewer",
+      "jobs": "Jobs",
+      "scholarships": "Stipendien",
+      "collaboration": "Zusammenarbeit",
+      "strategicPartners": "Strategische Partner",
+      "testimonials": "Testimonials",
+      "collabForm": "Kooperationsformular",
+      "eventCalendar": "Veranstaltungskalender",
+      "eventRegister": "Registrieren",
+      "archive": "Archiv"
+    }
+  },
+  "hero": {
+    "scriptText": "Entdecken Sie das Wissen Südostvietnams",
+    "title": "Wissensclub",
+    "subtitle": "Wissen Verbinden",
+    "cta": "Jetzt Entdecken",
+    "stats": {
+      "documents": "Dokumente",
+      "courses": "Kurse",
+      "members": "Mitglieder",
+      "partners": "Partner"
+    }
+  },
+  "events": {
+    "scriptText": "Aktuelle Veranstaltungen",
+    "subtitle": "VERANSTALTUNGEN & SEMINARE",
+    "title": "Kommende Veranstaltungen",
+    "upcomingTitle": "Kommende Veranstaltungen",
+    "archiveTitle": "Vergangene Veranstaltungen",
+    "location": "Ho-Chi-Minh-Stadt & Mekong-Delta",
+    "register": "Jetzt Anmelden",
+    "registrationOpen": "Anmeldung Offen",
+    "registerAction": "Anmelden",
+    "ended": "Beendet",
+    "closed": "Anmeldung Geschlossen",
+    "viewAll": "Alle Veranstaltungen Anzeigen"
+  },
+  "product": {
+    "scriptText": "Verbessern Sie Ihre Fähigkeiten",
+    "subtitle": "BILDUNGSPRODUKTE",
+    "title": "Kurse & Dienstleistungen",
+    "coursesTitle": "Ausgewählte Kurse",
+    "bespokeTitle": "Bespoke - Lokale Inhalte",
+    "featured": "Empfohlen",
+    "register": "Anmelden",
+    "learnMore": "Mehr Erfahren"
+  },
+  "resources": {
+    "scriptText": "Wissensschatz",
+    "subtitle": "DIGITALE BIBLIOTHEK",
+    "title": "Reichhaltige Ressourcen",
+    "prev": "Zurück",
+    "next": "Weiter"
+  },
+  "news": {
+    "scriptText": "Neueste Updates",
+    "subtitle": "NACHRICHTEN & WISSEN",
+    "title": "Ausgewählte Artikel",
+    "readMore": "Mehr Lesen",
+    "viewAll": "Alle Artikel Anzeigen"
+  },
+  "about": {
+    "scriptText": "Unsere Geschichte",
+    "subtitle": "ÜBER DEN WISSENSCLUB",
+    "title": "Unsere Reise",
+    "intro": "Der Wissensclub wurde mit der Mission gegründet, Wissen über Südostvietnam und das Mekong-Delta zu verbinden, zu bewahren und zu entwickeln.",
+    "tabs": {
+      "history": "Geschichte",
+      "advisory": "Beirat",
+      "training": "Ausbildungsrat",
+      "leadership": "Führung",
+      "culture": "Clubkultur"
+    },
+    "orgChart": {
+      "title": "Organigramm",
+      "viewFull": "Vollständiges Organigramm Anzeigen",
+      "leadership": "Führung",
+      "advisory": "Beirat",
+      "training": "Ausbildungsrat"
+    },
+    "timeline": {
+      "2015": "Gründung des Wissensclubs 11.11.2015",
+      "2018": "Mitglieder Community Entwicklung",
+      "2022": "Expansion strategischer Partnerschaften",
+      "2024": "Start der Online-Plattform",
+      "2026": "Internationale Vision"
+    },
+    "quote": "Wissen ist das Licht, das nachhaltige Entwicklung leitet."
+  },
+  "contact": {
+    "scriptText": "Kontaktieren Sie Uns",
+    "subtitle": "MITGLIEDSREGISTRIERUNG",
+    "title": "Der Gemeinschaft Beitreten",
+    "connect": "Verbinden Sie Sich Mit Uns",
+    "connectDesc": "Senden Sie Ihre Fragen oder Kooperationsanfragen — unser Team antwortet innerhalb von 24 Arbeitsstunden.",
+    "phone": "Telefon",
+    "address": "Adresse",
+    "workingHours": "Arbeitszeit",
+    "subject": "Betreff",
+    "subjectOptions": {
+      "general": "Allgemeine Anfrage",
+      "membership": "Mitgliedschaftspakete",
+      "bespoke": "Bespoke Beratung",
+      "partner": "Partnerschaft"
+    },
+    "successTitle": "Erfolgreich Gesendet!",
+    "successMsg": "Wir antworten innerhalb von 24 Arbeitsstunden.",
+    "newMessage": "Neue Nachricht Senden",
+    "sendError": "Ein Fehler ist aufgetreten, bitte versuchen Sie es später erneut.",
+    "info": {
+      "title": "Kontaktinformationen",
+      "address": "Adresse",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "hours": "Arbeitszeit",
+      "addressValue": "Ho-Chi-Minh-Stadt, Vietnam",
+      "emailValue": "info@clbtrithuc.vn",
+      "phoneValue": "1900 xxxx",
+      "hoursValue": "Mo-Sa, 8:00-17:00"
+    },
+    "form": {
+      "name": "Vollständiger Name",
+      "namePlaceholder": "Geben Sie Ihren Namen ein",
+      "email": "E-Mail",
+      "emailPlaceholder": "example@email.com",
+      "phone": "Telefonnummer",
+      "phonePlaceholder": "090x xxx xxx",
+      "password": "Passwort",
+      "passwordPlaceholder": "Mindestens 6 Zeichen",
+      "confirmPassword": "Bestätigen",
+      "confirmPasswordPlaceholder": "Erneut eingeben",
+      "tier": "Mitgliedschaftspaket",
+      "message": "Nachricht",
+      "messagePlaceholder": "Wofür interessieren Sie sich?",
+      "submit": "Jetzt Registrieren",
+      "submitting": "Wird bearbeitet...",
+      "success": "Registrierung erfolgreich!",
+      "error": "Fehler aufgetreten.",
+      "passwordMismatch": "Passwörter stimmen nicht überein.",
+      "weakPassword": "Passwort muss 6 Zeichen haben.",
+      "emailExists": "E-Mail bereits registriert.",
+      "privacy": "Mit der Registrierung stimmen Sie unseren Bedingungen und Datenschutzrichtlinien zu."
+    }
+  },
+  "footer": {
+    "description": "Vermittlung von Wissen über Südostvietnam und das Mekong-Delta.",
+    "newsletter": {
+      "label": "Newsletter Abonnieren",
+      "placeholder": "Geben Sie Ihre E-Mail ein",
+      "button": "Abonnieren",
+      "success": "Erfolgreich abonniert!",
+      "error": "Fehler aufgetreten."
+    },
+    "copyright": "© 2026 Wissensclub. Alle Rechte vorbehalten.",
+    "backToTop": "Nach oben",
+    "legal": {
+      "privacy": "Datenschutzrichtlinie",
+      "terms": "Nutzungsbedingungen"
+    }
+  },
+  "faq": {
+    "scriptText": "Wir beantworten Ihre Fragen",
+    "subtitle": "FAQ",
+    "title": "Häufig gestellte Fragen",
+    "intro": "Finden Sie Antworten auf Ihre Fragen zum Wissensclub.",
+    "categories": {
+      "all": "Alle",
+      "membership": "Mitgliedschaft",
+      "resources": "Ressourcen",
+      "partnership": "Partnerschaft"
+    },
+    "contactCta": "Noch Fragen?",
+    "contactLink": "Kontakt"
+  },
+  "language": {
+    "vi": "Tiếng Việt",
+    "en": "English",
+    "fr": "Français",
+    "zh": "中文",
+    "ko": "한국어",
+    "de": "Deutsch"
+  }
+}

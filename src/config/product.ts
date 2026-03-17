@@ -75,7 +75,7 @@ export const productConfig: ProductConfig = {
       featured: false,
     },
   ],
-  bespokeTitle: "Sản Phẩm & Dịch Vụ Chuyên Biệt",
+  bespokeTitle: "Sản phẩm & dịch vụ",
   bespokeRegions: [
     {
       id: "mekong-tour",

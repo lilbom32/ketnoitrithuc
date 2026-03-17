@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "about": "About Us",
+    "news": "Knowledge Hub",
+    "courses": "Courses",
+    "product": "Product",
+    "resources": "Resources",
+    "opportunities": "Opportunities",
+    "partners": "Partners",
+    "events": "Events",
+    "register": "Register",
+    "faq": "FAQ",
+    "login": "Login",
+    "logout": "Sign Out",
+    "profile": "Profile",
+    "community": "Connect",
+    "more": "More",
+    "dropdown": {
+      "orgChart": "Organization Chart",
+      "trainingDept": "Training Board",
+      "advisoryDept": "Advisory Board",
+      "culture": "Club Culture",
+      "allArticles": "All Articles",
+      "industryTrends": "Industry Trends",
+      "deepAnalysis": "Deep Analysis",
+      "masterclass": "Masterclass",
+      "bespoke": "Bespoke",
+      "digitalLibrary": "Digital Library",
+      "pdfViewer": "PDF Viewer",
+      "jobs": "Jobs",
+      "scholarships": "Scholarships",
+      "collaboration": "Collaboration",
+      "strategicPartners": "Strategic Partners",
+      "testimonials": "Testimonials",
+      "collabForm": "Collaboration Form",
+      "eventCalendar": "Event Calendar",
+      "eventRegister": "Register",
+      "archive": "Archive"
+    }
+  },
+  "hero": {
+    "scriptText": "Discover Knowledge of Southeast Vietnam",
+    "title": "Knowledge Club",
+    "subtitle": "Connecting Knowledge",
+    "cta": "Explore Now",
+    "stats": {
+      "documents": "Documents",
+      "courses": "Courses",
+      "members": "Members",
+      "partners": "Partners"
+    }
+  },
+  "events": {
+    "scriptText": "Latest Events",
+    "subtitle": "EVENTS & SEMINARS",
+    "title": "Upcoming Events",
+    "upcomingTitle": "Upcoming Events",
+    "archiveTitle": "Past Events",
+    "location": "Ho Chi Minh City & Mekong Delta",
+    "register": "Register Now",
+    "registrationOpen": "Registration Open",
+    "registerAction": "Register to Attend",
+    "ended": "Ended",
+    "closed": "Registration Closed",
+    "viewAll": "View All Events"
+  },
+  "product": {
+    "scriptText": "Enhance Your Skills",
+    "subtitle": "TRAINING PRODUCTS",
+    "title": "Courses & Services",
+    "coursesTitle": "Featured Courses",
+    "bespokeTitle": "Bespoke - Local Content",
+    "featured": "Featured",
+    "register": "Register",
+    "learnMore": "Learn More"
+  },
+  "resources": {
+    "scriptText": "Knowledge Treasury",
+    "subtitle": "DIGITAL LIBRARY",
+    "title": "Rich Resources",
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "news": {
+    "scriptText": "Latest Updates",
+    "subtitle": "NEWS & KNOWLEDGE",
+    "title": "Featured Articles",
+    "readMore": "Read More",
+    "viewAll": "View All Articles"
+  },
+  "about": {
+    "scriptText": "Our Story",
+    "subtitle": "ABOUT KNOWLEDGE CLUB",
+    "title": "Our Journey",
+    "intro": "Knowledge Club was founded with the mission to connect, preserve and develop knowledge about Southeast Vietnam and the Mekong Delta.",
+    "tabs": {
+      "history": "History",
+      "advisory": "Advisory Board",
+      "training": "Training Board",
+      "leadership": "Leadership",
+      "culture": "Club Culture"
+    },
+    "orgChart": {
+      "title": "Organization Chart",
+      "viewFull": "View Full Chart",
+      "leadership": "Leadership Board",
+      "advisory": "Advisory Board",
+      "training": "Training Board"
+    },
+    "timeline": {
+      "2015": "Founded Knowledge Club 11/11/2015",
+      "2018": "Member Community Development",
+      "2022": "Strategic Partnership Expansion",
+      "2024": "Online Platform Launch",
+      "2026": "International Vision"
+    },
+    "quote": "Knowledge is the guiding light for sustainable development."
+  },
+  "contact": {
+    "scriptText": "Connect with us",
+    "subtitle": "MEMBERSHIP REGISTRATION",
+    "title": "Join the Community",
+    "connect": "Connect With Us",
+    "connectDesc": "Send your questions or collaboration requests — our team will respond within 24 working hours.",
+    "phone": "Phone",
+    "address": "Address",
+    "workingHours": "Working Hours",
+    "subject": "Subject",
+    "subjectOptions": {
+      "general": "General Inquiry",
+      "membership": "Membership Plans",
+      "bespoke": "Bespoke Consultation",
+      "partner": "Partnership"
+    },
+    "successTitle": "Sent Successfully!",
+    "successMsg": "We will respond within 24 working hours.",
+    "newMessage": "Send New Message",
+    "sendError": "An error occurred, please try again later.",
+    "info": {
+      "title": "Contact Information",
+      "address": "Address",
+      "email": "Email",
+      "phone": "Phone",
+      "hours": "Working Hours",
+      "addressValue": "Ho Chi Minh City, Vietnam",
+      "emailValue": "info@clbtrithuc.vn",
+      "phoneValue": "1900 xxxx",
+      "hoursValue": "Mon-Sat, 8:00-17:00"
+    },
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email",
+      "emailPlaceholder": "example@email.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "090x xxx xxx",
+      "password": "Password",
+      "passwordPlaceholder": "At least 6 characters",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordPlaceholder": "Re-enter password",
+      "tier": "Membership Plan",
+      "message": "Message",
+      "messagePlaceholder": "What are you interested in?",
+      "submit": "Register Now",
+      "submitting": "Processing...",
+      "success": "Registration successful!",
+      "error": "An error occurred. Please try again.",
+      "passwordMismatch": "Passwords do not match.",
+      "weakPassword": "Password must be at least 6 characters.",
+      "emailExists": "This email is already registered.",
+      "privacy": "By registering, you agree to our terms and privacy policy."
+    }
+  },
+  "footer": {
+    "description": "Connecting knowledge of Southeast Vietnam and the Mekong Delta.",
+    "newsletter": {
+      "label": "Subscribe to newsletter",
+      "placeholder": "Enter your email",
+      "button": "Subscribe",
+      "success": "Subscribed successfully!",
+      "error": "An error occurred."
+    },
+    "copyright": "© 2026 Knowledge Club. All rights reserved.",
+    "backToTop": "Back to Top",
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use"
+    }
+  },
+  "faq": {
+    "scriptText": "Answering your questions",
+    "subtitle": "FAQ",
+    "title": "Frequently Asked Questions",
+    "intro": "Find answers to your questions about Knowledge Club.",
+    "categories": {
+      "all": "All",
+      "membership": "Membership",
+      "resources": "Resources",
+      "partnership": "Partnership"
+    },
+    "contactCta": "Still have questions?",
+    "contactLink": "Contact"
+  },
+  "language": {
+    "vi": "Tiếng Việt",
+    "en": "English",
+    "fr": "Français",
+    "zh": "中文",
+    "ko": "한국어",
+    "de": "Deutsch"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where claude:*)",
+      "Bash(npm --version)",
+      "Bash(npm install:*)",
+      "Bash(claude --version)",
+      "Bash(xargs wc:*)"
+    ]
+  }
+}
