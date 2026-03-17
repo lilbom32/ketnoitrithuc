@@ -146,6 +146,16 @@ export function ContactForm() {
                   </div>
 
                   <div>
+                    <label htmlFor="contact-phone" className="block text-sm font-medium text-[#1E2761]/70 mb-2">{t('contact.form.phone')}</label>
+                    <input
+                      id="contact-phone"
+                      type="tel"
+                      placeholder={t('contact.form.phonePlaceholder')}
+                      className="w-full px-4 py-3 bg-[#F5F7FA] border-transparent focus:bg-white focus:border-[#E63946] focus:ring-0 transition-all outline-none rounded-sm"
+                    />
+                  </div>
+
+                  <div>
                     <label htmlFor="contact-subject" className="block text-sm font-medium text-[#1E2761]/70 mb-2">{t('contact.subject')}</label>
                     <select id="contact-subject" className="w-full px-4 py-3 bg-[#F5F7FA] border-transparent focus:bg-white focus:border-[#E63946] focus:ring-0 transition-all outline-none rounded-sm appearance-none">
                       <option>{t('contact.subjectOptions.general')}</option>

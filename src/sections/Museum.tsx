@@ -112,17 +112,32 @@ export function Museum() {
 
         {/* Story/Timeline Preview */}
         <div className={`mt-24 pt-24 border-t border-[#1E2761]/10 transition-all duration-1000 delay-500 ${isIntersecting ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
+          {/* Highlight: Foundation Date */}
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-3 px-6 py-3 bg-[#E63946]/10 rounded-full">
+              <div className="w-2 h-2 rounded-full bg-[#E63946] animate-pulse" />
+              <span className="text-[#E63946] font-medium">11/11/2015 — Ngày thành lập CLB</span>
+            </div>
+          </div>
+          
+          <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-8">
             {[
-              { year: '2020', i18nKey: 'about.timeline.2020' },
-              { year: '2022', i18nKey: 'about.timeline.2022' },
-              { year: '2024', i18nKey: 'about.timeline.2024' },
-              { year: '2026', i18nKey: 'about.timeline.2026' }
+              { year: '2015', i18nKey: 'about.timeline.2015', highlight: true },
+              { year: '2018', i18nKey: 'about.timeline.2018', highlight: false },
+              { year: '2022', i18nKey: 'about.timeline.2022', highlight: true },
+              { year: '2024', i18nKey: 'about.timeline.2024', highlight: true },
+              { year: '2026', i18nKey: 'about.timeline.2026', highlight: true }
             ].map((item, idx) => (
-              <div key={idx} className="relative group">
-                <div className="text-5xl font-serif text-[#1E2761]/10 group-hover:text-[#E63946]/20 transition-colors duration-500 mb-4">{item.year}</div>
-                <div className="h-px w-12 bg-[#E63946] mb-6" />
-                <p className="text-[#1E2761]/70 leading-relaxed group-hover:text-[#1E2761] transition-colors duration-300">
+              <div key={idx} className={`relative group text-center md:text-left ${item.highlight ? 'md:col-span-1' : ''}`}>
+                {/* Year with highlight styling */}
+                <div className={`text-4xl font-serif mb-3 transition-colors duration-500 ${item.highlight ? 'text-[#1E2761] font-bold' : 'text-[#1E2761]/20'}`}>
+                  {item.year}
+                  {item.highlight && <span className="inline-block w-2 h-2 rounded-full bg-[#E63946] ml-2 align-top mt-2" />}
+                </div>
+                {/* Line indicator */}
+                <div className={`h-px mb-4 mx-auto md:mx-0 transition-all duration-300 ${item.highlight ? 'w-16 bg-[#E63946]' : 'w-8 bg-[#1E2761]/20'}`} />
+                {/* Description */}
+                <p className={`text-sm leading-relaxed transition-colors duration-300 ${item.highlight ? 'text-[#1E2761] font-medium' : 'text-[#1E2761]/50'}`}>
                   {t(item.i18nKey)}
                 </p>
               </div>

@@ -90,7 +90,7 @@ export function Hero({ isReady }: { isReady: boolean }) {
         <div className={`mx-auto my-6 h-px bg-[#E63946]/50 transition-all duration-1000 ease-out ${phase >= 2 ? 'w-24 opacity-100' : 'w-0 opacity-0'}`} style={{ transitionDelay: '0.2s' }} />
 
         {/* Main Title */}
-        <h1 className={`font-serif text-5xl md:text-6xl lg:text-[5rem] xl:text-[6rem] text-white leading-[1.05] tracking-wide transition-all duration-1000 ease-out ${phase >= 2 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`} style={{ transitionDelay: '0.3s' }}>
+        <h1 className={`font-serif text-white leading-[1.05] tracking-wide whitespace-nowrap transition-all duration-1000 ease-out ${phase >= 2 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`} style={{ transitionDelay: '0.3s', fontSize: 'clamp(1.6rem, 5.5vw, 5rem)' }}>
           {t('hero.title')}
         </h1>
         

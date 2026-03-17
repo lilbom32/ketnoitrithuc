@@ -1,0 +1,44 @@
+name: Weekly Full Backup
+
+on:
+  schedule:
+    - cron: '0 3 * * 0'  # 3 AM UTC every Sunday
+  workflow_dispatch:
+
+jobs:
+  full-backup:
+    name: Full Database Backup
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install PostgreSQL Client
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y postgresql-client
+
+      - name: Create Backup
+        run: |
+          mkdir -p backups/full
+          pg_dump \
+            --dbname="${{ secrets.SUPABASE_DB_URL }}" \
+            --format=custom \
+            --verbose \
+            --file=backups/full/backup_$(date +%Y%m%d_%H%M%S).dump
+
+      - name: Compress Backup
+        run: |
+          cd backups/full
+          gzip *.dump
+
+      - name: Upload to S3 (if configured)
+        if: secrets.BACKUP_BUCKET != ''
+        run: |
+          aws s3 cp backups/full/ s3://${{ secrets.BACKUP_BUCKET }}/full/ \
+            --recursive \
+            --storage-class STANDARD_IA
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}

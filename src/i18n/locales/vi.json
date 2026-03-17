@@ -108,7 +108,8 @@
       "training": "Ban Đào tạo"
     },
     "timeline": {
-      "2020": "Thành lập Câu lạc bộ Tri thức Du lịch",
+      "2015": "Thành lập CLB Tri thức Du lịch 11/11/2015",
+      "2018": "Phát triển cộng đồng thành viên",
       "2022": "Mở rộng đối tác chiến lược",
       "2024": "Ra mắt nền tảng online",
       "2026": "Tầm nhìn quốc tế"
@@ -126,8 +127,8 @@
     "workingHours": "Giờ làm việc",
     "subject": "Chủ đề",
     "subjectOptions": {
-      "general": "Câu hỏi chung",
-      "membership": "Hỏi về gói hội viên",
+      "general": "Đăng ký thành viên",
+      "membership": "Tư vấn gói hội viên",
       "bespoke": "Tư vấn Bespoke",
       "partner": "Hợp tác đối tác"
     },

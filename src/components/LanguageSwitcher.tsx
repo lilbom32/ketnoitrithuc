@@ -5,12 +5,12 @@ import { Globe, ChevronDown } from 'lucide-react';
 import { useState, useRef, useEffect, useLayoutEffect } from 'react';
 
 const languages = [
-  { code: 'vi', label: 'VI', flag: '🇻🇳' },
-  { code: 'en', label: 'EN', flag: '🇬🇧' },
-  { code: 'fr', label: 'FR', flag: '🇫🇷' },
-  { code: 'zh', label: 'ZH', flag: '🇨🇳' },
-  { code: 'ko', label: 'KO', flag: '🇰🇷' },
-  { code: 'de', label: 'DE', flag: '🇩🇪' },
+  { code: 'vi', label: 'VI', country: 'VN', flag: '🇻🇳' },
+  { code: 'en', label: 'EN', country: 'GB', flag: '🇬🇧' },
+  { code: 'fr', label: 'FR', country: 'FR', flag: '🇫🇷' },
+  { code: 'zh', label: 'ZH', country: 'CN', flag: '🇨🇳' },
+  { code: 'ko', label: 'KO', country: 'KR', flag: '🇰🇷' },
+  { code: 'de', label: 'DE', country: 'DE', flag: '🇩🇪' },
 ];
 
 export function LanguageSwitcher() {
@@ -52,7 +52,7 @@ export function LanguageSwitcher() {
   const dropdownEl = isOpen && (
     <div
       ref={dropdownRef}
-      className="fixed bg-white rounded-lg shadow-lg overflow-hidden min-w-[120px] z-[9999]"
+      className="fixed bg-white rounded-lg shadow-lg overflow-hidden min-w-[140px] z-[9999] py-1"
       role="listbox"
       style={{ top: position.top, right: position.right }}
     >
@@ -61,7 +61,7 @@ export function LanguageSwitcher() {
           key={lang.code}
           type="button"
           onClick={() => changeLanguage(lang.code)}
-          className={`w-full flex items-center gap-2 px-4 py-2.5 text-sm text-left transition-colors duration-200 ${
+          className={`w-full grid grid-cols-2 gap-4 px-4 py-2 text-sm text-left transition-colors duration-200 ${
             i18n.language === lang.code
               ? 'bg-[#2D5A3D] text-white'
               : 'text-gray-700 hover:bg-gray-100'
@@ -69,8 +69,8 @@ export function LanguageSwitcher() {
           role="option"
           aria-selected={i18n.language === lang.code}
         >
-          <span>{lang.flag}</span>
-          <span>{lang.label}</span>
+          <span className="font-medium text-right">{lang.country}</span>
+          <span className="text-left">{lang.label}</span>
         </button>
       ))}
     </div>
@@ -82,12 +82,13 @@ export function LanguageSwitcher() {
         ref={triggerRef}
         type="button"
         onClick={() => setIsOpen((o) => !o)}
-        className="flex items-center gap-1.5 px-3 py-1.5 text-sm text-white/80 hover:text-white transition-colors duration-200"
+        className="flex items-center gap-2 px-3 py-1.5 text-sm text-white/80 hover:text-white transition-colors duration-200"
         aria-expanded={isOpen}
         aria-haspopup="listbox"
       >
         <Globe className="w-4 h-4" />
-        <span className="font-medium">{currentLang.label}</span>
+        <span className="font-medium tabular-nums">{currentLang.country}</span>
+        <span className="tabular-nums">{currentLang.label}</span>
         <ChevronDown className={`w-3 h-3 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`} />
       </button>
       {typeof document !== 'undefined' && createPortal(dropdownEl, document.body)}

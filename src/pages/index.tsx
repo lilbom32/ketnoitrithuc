@@ -16,10 +16,12 @@ const Preloader = dynamic(
 );
 
 // Below-fold sections: code-split for faster LCP + smaller initial JS payload.
-const Product        = lazy(() => import('@/sections/Product').then((m) => ({ default: m.Product })));
-const Events         = lazy(() => import('@/sections/Events').then((m) => ({ default: m.Events })));
-const Museum         = lazy(() => import('@/sections/Museum').then((m) => ({ default: m.Museum })));
 const News           = lazy(() => import('@/sections/News').then((m) => ({ default: m.News })));
+const Events         = lazy(() => import('@/sections/Events').then((m) => ({ default: m.Events })));
+const Courses        = lazy(() => import('@/sections/Courses').then((m) => ({ default: m.Courses })));
+const Services       = lazy(() => import('@/sections/Services').then((m) => ({ default: m.Services })));
+const Museum         = lazy(() => import('@/sections/Museum').then((m) => ({ default: m.Museum })));
+const SocialProof    = lazy(() => import('@/sections/SocialProof').then((m) => ({ default: m.SocialProof })));
 const FAQ            = lazy(() => import('@/sections/FAQ').then((m) => ({ default: m.FAQ })));
 const ContactForm    = lazy(() => import('@/sections/ContactForm').then((m) => ({ default: m.ContactForm })));
 const Footer         = lazy(() => import('@/sections/Footer').then((m) => ({ default: m.Footer })));
@@ -73,9 +75,9 @@ export default function HomePage() {
         <main>
           <Hero isReady={!isLoading} />
 
-          <ErrorBoundary section="Sản Phẩm" compact>
-            <Suspense fallback={<SectionSkeleton minHeight="600px" />}>
-              <Product />
+          <ErrorBoundary section="Tin Tức" compact>
+            <Suspense fallback={<SectionSkeleton minHeight="500px" />}>
+              <News />
             </Suspense>
           </ErrorBoundary>
 
@@ -85,15 +87,27 @@ export default function HomePage() {
             </Suspense>
           </ErrorBoundary>
 
+          <ErrorBoundary section="Khóa Học" compact>
+            <Suspense fallback={<SectionSkeleton minHeight="500px" />}>
+              <Courses />
+            </Suspense>
+          </ErrorBoundary>
+
+          <ErrorBoundary section="Sản Phẩm & Dịch Vụ" compact>
+            <Suspense fallback={<SectionSkeleton minHeight="500px" />}>
+              <Services />
+            </Suspense>
+          </ErrorBoundary>
+
           <ErrorBoundary section="Về Chúng Tôi" compact>
             <Suspense fallback={<SectionSkeleton minHeight="600px" />}>
               <Museum />
             </Suspense>
           </ErrorBoundary>
 
-          <ErrorBoundary section="Tin Tức" compact>
+          <ErrorBoundary section="Cảm Nhận & Thành Tựu" compact>
             <Suspense fallback={<SectionSkeleton minHeight="500px" />}>
-              <News />
+              <SocialProof />
             </Suspense>
           </ErrorBoundary>
 

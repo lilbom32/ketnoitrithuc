@@ -116,14 +116,9 @@ function JobCard({ job }: { job: JobCard }) {
         <span className={`px-2.5 py-0.5 text-xs font-medium rounded-full ${TYPE_COLORS[job.type]}`}>
           {TYPE_LABELS[job.type]}
         </span>
-        {job.salary_range && (
-          <span className="px-2.5 py-0.5 text-xs font-medium rounded-full bg-green-50 text-green-700">
-            {job.salary_range}
-          </span>
-        )}
       </div>
 
-      <h2 className="font-serif text-xl mb-1">{job.title}</h2>
+      <h2 className="font-serif text-xl mb-2">{job.title}</h2>
 
       <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-gray-500 mb-4">
         <span className="font-medium text-gray-700">{job.company}</span>
@@ -136,7 +131,7 @@ function JobCard({ job }: { job: JobCard }) {
           href={`mailto:${job.contact_email}`}
           className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-[#1E2761] text-white text-sm font-medium hover:bg-[#1E2761]/90 transition-colors"
         >
-          Ứng tuyển →
+          Liên hệ tìm hiểu →
         </a>
       )}
     </div>

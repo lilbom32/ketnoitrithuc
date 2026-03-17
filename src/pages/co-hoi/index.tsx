@@ -19,14 +19,14 @@ const CoHoiPage: NextPage<Props> = ({ jobs }) => {
   const [activeTab, setActiveTab] = useState<'jobs' | 'scholarships' | 'collab'>('jobs');
 
   const JOBS = [
-    { title: 'Quản lý vận hành Tour', company: 'Saigon Tourist', location: 'Quận 1, TP.HCM', type: 'full-time', salary_range: '15-20tr' },
-    { title: 'Giảng viên chuyên ngành Khách sạn', company: 'ĐH Văn Lang', location: 'Quận Bình Thạnh', type: 'part-time', salary_range: 'Thỏa thuận' },
-    { title: 'Chuyên viên Marketing Du lịch', company: 'Mekong Travel', location: 'Cần Thơ', type: 'full-time', salary_range: '10-15tr' },
+    { title: 'Quản lý vận hành Tour', company: 'Saigon Tourist', location: 'Quận 1, TP.HCM', type: 'full-time' },
+    { title: 'Giảng viên chuyên ngành Khách sạn', company: 'ĐH Văn Lang', location: 'Quận Bình Thạnh', type: 'part-time' },
+    { title: 'Chuyên viên Marketing Du lịch', company: 'Mekong Travel', location: 'Cần Thơ', type: 'full-time' },
   ];
 
   const SCHOLARSHIPS = [
-    { title: 'Học bổng Tài năng Du lịch Mekong 2026', provider: 'Câu lạc bộ Tri thức Du lịch', value: '100% học phí', deadline: '30/06/2026' },
-    { title: 'Học bổng Thạc sĩ Quản trị Khách sạn tại Thụy Sĩ', provider: 'Học viện Glion', value: '50% học phí', deadline: '15/05/2026' },
+    { title: 'Học bổng Tài năng Du lịch Mekong 2026', provider: 'Câu lạc bộ Tri thức Du lịch' },
+    { title: 'Học bổng Thạc sĩ Quản trị Khách sạn tại Thụy Sĩ', provider: 'Học viện Glion' },
   ];
 
   return (
@@ -112,13 +112,9 @@ const CoHoiPage: NextPage<Props> = ({ jobs }) => {
                       </div>
                     </div>
                   </div>
-                  <div className="flex items-center justify-between md:justify-end gap-6 border-t md:border-t-0 pt-4 md:pt-0">
-                    <div className="text-right">
-                      <div className="text-[#E63946] font-bold">{job.salary_range}</div>
-                      <div className="text-[10px] text-gray-400 uppercase font-medium">Lương dự kiến</div>
-                    </div>
+                  <div className="flex items-center justify-end border-t md:border-t-0 pt-4 md:pt-0">
                     <button className="px-6 py-2.5 bg-[#1E2761] text-white rounded-lg font-medium hover:bg-[#E63946] transition-colors">
-                      Ứng tuyển
+                      Liên hệ tìm hiểu
                     </button>
                   </div>
                 </div>
@@ -133,23 +129,15 @@ const CoHoiPage: NextPage<Props> = ({ jobs }) => {
                   <div className="absolute top-0 right-0 p-4">
                     <GraduationCap className="w-12 h-12 text-[#F5F7FA] group-hover:text-[#E63946]/10 transition-colors" />
                   </div>
-                  <h3 className="font-serif text-2xl text-[#1E2761] mb-4 pr-10">{sc.title}</h3>
-                  <div className="space-y-3 mb-8">
+                  <h3 className="font-serif text-2xl text-[#1E2761] mb-6 pr-10">{sc.title}</h3>
+                  <div className="mb-8">
                     <div className="flex items-center justify-between text-sm">
                       <span className="text-gray-400">Đơn vị:</span>
                       <span className="font-medium text-[#1E2761]">{sc.provider}</span>
                     </div>
-                    <div className="flex items-center justify-between text-sm">
-                      <span className="text-gray-400">Giá trị:</span>
-                      <span className="font-bold text-[#E63946]">{sc.value}</span>
-                    </div>
-                    <div className="flex items-center justify-between text-sm">
-                      <span className="text-gray-400">Hạn chót:</span>
-                      <span className="font-medium text-gray-600">{sc.deadline}</span>
-                    </div>
                   </div>
                   <button className="w-full py-3 bg-[#F5F7FA] text-[#1E2761] rounded-xl font-medium group-hover:bg-[#1E2761] group-hover:text-white transition-all flex items-center justify-center gap-2">
-                    Xem chi tiết <ArrowRight className="w-4 h-4" />
+                    Liên hệ tư vấn <ArrowRight className="w-4 h-4" />
                   </button>
                 </div>
               ))}

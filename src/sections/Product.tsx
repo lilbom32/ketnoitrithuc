@@ -59,11 +59,11 @@ export function Product() {
             {productConfig.courses.map((course, index) => (
               <div
                 key={course.id}
-                className={`group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+                className={`group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 h-full flex flex-col ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
                 style={{ transitionDelay: `${150 + index * 100}ms` }}
               >
                 {/* Image */}
-                <div className="relative h-48 overflow-hidden">
+                <div className="relative h-48 overflow-hidden flex-shrink-0">
                   <img
                     src={course.image}
                     alt={course.name}
@@ -80,11 +80,11 @@ export function Product() {
                 </div>
 
                 {/* Content */}
-                <div className="p-5">
+                <div className="p-5 flex flex-col flex-grow">
                   <h4 className="font-serif text-lg text-[#1E2761] mb-2 line-clamp-2 group-hover:text-[#E63946] transition-colors">
                     {course.name}
                   </h4>
-                  <p className="text-sm text-[#6C757D] mb-4 line-clamp-2">
+                  <p className="text-sm text-[#6C757D] mb-4 line-clamp-2 flex-grow">
                     {course.description}
                   </p>
                   
@@ -121,11 +121,11 @@ export function Product() {
             {productConfig.bespokeRegions.map((region, index) => (
               <div
                 key={region.id}
-                className={`group relative bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+                className={`group relative bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 h-full flex flex-col ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
                 style={{ transitionDelay: `${550 + index * 100}ms` }}
               >
                 {/* Image */}
-                <div className="relative h-56 overflow-hidden">
+                <div className="relative h-56 overflow-hidden flex-shrink-0">
                   <img
                     src={region.image}
                     alt={region.name}
@@ -139,7 +139,7 @@ export function Product() {
                 </div>
 
                 {/* Content */}
-                <div className="p-5">
+                <div className="p-5 flex flex-col flex-grow">
                   <p className="text-sm text-[#6C757D] mb-4">
                     {region.description}
                   </p>
@@ -155,7 +155,7 @@ export function Product() {
 
                   <button
                     onClick={() => scrollToSection('#contact')}
-                    className="w-full btn-primary text-center text-sm"
+                    className="w-full btn-primary text-center text-sm mt-auto"
                   >
                     {t('product.learnMore')}
                   </button>

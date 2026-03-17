@@ -53,7 +53,7 @@ export function Footer() {
   };
 
   return (
-    <footer className="relative border-t border-white/10" role="contentinfo">
+    <footer className="relative bg-[#1E2761] border-t border-white/10" role="contentinfo">
       {/* Main Footer */}
       <div className="container-custom py-16">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
@@ -62,7 +62,7 @@ export function Footer() {
             <div className="flex items-center gap-3 mb-6">
               <img src="/images/logo clb.jpg" alt="" aria-hidden="true" className="w-9 h-9 rounded-full object-cover" />
               <div>
-                <span className="font-serif text-xl text-white block">{footerConfig.brandName}</span>
+                <span className="font-serif text-xl text-white block whitespace-nowrap">{footerConfig.brandName}</span>
                 {footerConfig.tagline && (
                   <span className="text-[10px] text-gold-400 tracking-widest uppercase">{footerConfig.tagline}</span>
                 )}

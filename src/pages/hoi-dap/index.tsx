@@ -163,12 +163,16 @@ const HoiDapPage: NextPage = () => {
                   </div>
                 </div>
                 <div className="space-y-2">
+                  <label className="text-xs font-bold text-gray-400 uppercase tracking-widest">Số điện thoại *</label>
+                  <input type="tel" className="w-full px-0 py-3 border-b border-[#CADCFC] outline-none focus:border-[#E63946] transition-all font-medium" />
+                </div>
+                <div className="space-y-2">
                   <label className="text-xs font-bold text-gray-400 uppercase tracking-widest">Chủ đề</label>
                   <select className="w-full px-0 py-3 border-b border-[#CADCFC] outline-none focus:border-[#E63946] transition-all font-medium appearance-none">
-                    <option>Hỏi về gói hội viên</option>
-                    <option>Hợp tác đào tạo</option>
+                    <option>Tư vấn gói hội viên</option>
+                    <option>Tư vấn sản phẩm dịch vụ</option>
+                    <option>Hợp tác đối tác</option>
                     <option>Báo cáo sự cố</option>
-                    <option>Hợp tác Bespoke</option>
                   </select>
                 </div>
                 <div className="space-y-2">
